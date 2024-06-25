@@ -13,3 +13,10 @@ main_folder
 -	The ontology to be extended must be stored in the “ontologies” folder;
 -	main_folder can also have a different name. Important is that all Python modules together with config.json are placed inside it;
 -	Global variables listed in config.json must be adjusted for the process.
+
+
+- install pytorch version 1.8.0 and cuda toolkit version 11.1
+- install CatalysisIE
+- install PDFDataExtractor
+
+- uses robot from OBO foundry
