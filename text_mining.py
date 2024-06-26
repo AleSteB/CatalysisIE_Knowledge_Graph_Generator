@@ -297,13 +297,13 @@ def CatalysisIE_search(model, test_sents): #change description at the and
     for sent in output_sents:
         c_idx=None
         sent_tag = [t['pred'] for t in sent]
-        print(assemble_token_text(sent))
+        #print(assemble_token_text(sent))
         chem_list_all.extend([c.text for c in Document(assemble_token_text(sent)).cems])
         abb_list = Document(assemble_token_text(sent)).abbreviation_definitions
         for i in range(len(abb_list)):
             abbreviation[abb_list[i][0][0]] = abb_list[i][1][0]
         for k, j, l in get_bio_spans(sent_tag):
-            print(assemble_token_text(sent[k:j + 1]), l)
+            #print(assemble_token_text(sent[k:j + 1]), l)
             entity = assemble_token_text(sent[k:j + 1])
             entity_raw=entity
             #add abbreviation if directly after entity an entity in brackets
