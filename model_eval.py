@@ -76,7 +76,7 @@ for i in glob.iglob(path):
                 if categories[item["value"]["text"]] == item["value"]["labels"][0]:
                     # contained in both manually and automatically labeled data
                     label_dict_model[item["value"]["labels"][0]] += 1
-                    word_list_mod.append(i["value"]["text"])
+                    word_list_mod.append(item["value"]["text"])
 
         num_lab_man = len(set(word_list_man))
 
