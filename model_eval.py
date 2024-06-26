@@ -8,6 +8,7 @@ from CatalysisIE.model import *
 from CatalysisIE.utils import *
 from pubchempy import get_compounds
 
+import statistics
 import json
 
 import pybliometrics
@@ -55,7 +56,7 @@ for i in glob.iglob(path):
         sents = text_prep(abstract)
         categories, chem_list, reac_dict, sup_cat, abbreviation, raw_entities = CatalysisIE_search(model, sents)
 
-        entry_annotation_lst = find_id_by_text(label_data,abstract[:80])
+        entry_annotation_lst = find_id_by_text(label_data,abstract[1:80])
 
         label_dict_manual = {i: 0 for i in label_list}
         label_dict_model = {i: 0 for i in label_list}
@@ -79,5 +80,19 @@ for i in glob.iglob(path):
                     word_list_mod.append(item["value"]["text"])
 
         num_lab_man = len(set(word_list_man))
+        num_lab_mod = len(set(word_list_mod))
 
-        out_dict[entry_annotation_lst] = {"man": num_lab_man, "man_labels": label_dict_manual, "base_model": word_list_mod, "base_model_labels":label_dict_model}
+        recall = num_lab_mod/num_lab_man
+
+        prec_classes = []
+        for lab_class in list(label_dict_manual.keys()):
+            if label_dict_manual[lab_class] !=0:
+                prec_classes.append(label_dict_model[lab_class]/label_dict_manual[lab_class])
+
+        deviation = statistics.stdev(prec_classes)
+        prec = sum(prec_classes)/len(label_list)
+        out_dict[entry_annotation_lst] = {"man": num_lab_man, "man_labels": label_dict_manual, "base_model": num_lab_mod, "base_model_labels":label_dict_model, "recall": recall, "precision": prec, "st_dev": deviation}
+
+
+    with open("./out_dict_base_mod.json",'w') as f:
+        json.dump(out_dict, f)
