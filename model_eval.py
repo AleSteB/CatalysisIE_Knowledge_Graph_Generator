@@ -56,7 +56,7 @@ for i in glob.iglob(path):
         sents = text_prep(abstract)
         categories, chem_list, reac_dict, sup_cat, abbreviation, raw_entities = CatalysisIE_search(model, sents)
 
-        entry_annotation_lst = find_id_by_text(label_data,abstract[1:80])
+        entry_annotation_lst = find_id_by_text(label_data,abstract[1:55])
 
         label_dict_manual = {i: 0 for i in label_list}
         label_dict_model = {i: 0 for i in label_list}
