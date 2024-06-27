@@ -201,12 +201,13 @@ def equality():
                     if str(iri_snip) == str(iri_old):
                         continue
                     else:
-                        eq.append(c_2.label[0])
-                        onto.search_one(iri=iri_old).equivalent_to.append(onto.search_one(iri=iri_snip))
-                        onto.search_one(iri=iri_old).comment = ([
-                            'Equivalence with {} added automatically'.format(c_2.iri)])
-                        onto.search_one(iri=iri_snip).comment = ([
-                            'Equivalence with {} added automatically'.format(onto.search_one(iri=iri_old).iri)]) 
+                        if iri_old:
+                            eq.append(c_2.label[0])
+                            onto.search_one(iri=iri_old).equivalent_to.append(onto.search_one(iri=iri_snip))
+                            onto.search_one(iri=iri_old).comment = ([
+                                'Equivalence with {} added automatically'.format(c_2.iri)])
+                            onto.search_one(iri=iri_snip).comment = ([
+                                'Equivalence with {} added automatically'.format(onto.search_one(iri=iri_old).iri)])
 
     onto.save('./ontologies/{}.owl'.format(onto_new.lower())) 
     return eq   

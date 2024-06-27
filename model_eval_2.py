@@ -37,8 +37,8 @@ with open("config.json") as json_config:
         set_config_key(key, value)
 
 # TODO: Checkpoint dynamisch einbauen!
-ckpt_name = "CatalysisIE/checkpoint/train_demo1_checkpoint-v4.ckpt"
-#ckpt_name = "CatalysisIE/checkpoint/CV_0.ckpt"
+#ckpt_name = "CatalysisIE/checkpoint/train_demo1_checkpoint-v4.ckpt"
+ckpt_name = "CatalysisIE/checkpoint/CV_0.ckpt"
 model = BERTSpan.load_from_checkpoint(ckpt_name, model_name=bert_name, train_dataset=[], val_dataset=[], test_dataset=[])
 
 out_dict = {}
@@ -102,14 +102,17 @@ for i in glob.iglob(path):
                         word_list_mod.append(item["value"]["text"])
 
         for i in chem_list:
-            if i not in word_list_mod and i in list(label_man_index.keys()):
+            if i not in word_list_mod:# and i in list(label_man_index.keys()):
                     try:
+                        print("Adding '{}' with label {}".format(i,label_man_index[i]))
                         label_dict_model[label_man_index[i]] += 1
                         word_list_mod.append(i)
                     except:
                         print("Correct label for '{}' not clear. Assumed as Catalyst".format(i))
                         label_dict_model["Catalyst"] += 1
                         word_list_mod.append(i)
+            else:
+                print("Correct label for '{}' not clear, entry omitted.".format(i))
 
 
         num_lab_man = len(set(word_list_man))
@@ -124,10 +127,9 @@ for i in glob.iglob(path):
 
         deviation = statistics.stdev(prec_classes)
         prec = sum(prec_classes)/len(label_list)
-        out_dict[entry_annotation_lst] = {"man": num_lab_man, "man_labels": label_dict_manual, "base_model": num_lab_mod, "base_model_labels":label_dict_model, "recall": recall, "precision": prec, "st_dev": deviation, "doi": doi}
+        out_dict[entry_annotation_lst] = {"man": num_lab_man, "man_labels": label_dict_manual, "base_model": num_lab_mod, "base_model_labels":label_dict_model, "recall": recall, "precision": prec, "st_dev": deviation, "doi": doi, "token_man":list(set(word_list_man)),"token_mod":list(set(word_list_mod))}
 
-    with open("./out_dict_base_own_mod.json",'w') as f:
+    with open("./out_dict_base_mod.json",'w') as f:
         json.dump(out_dict, f)
-
 
 
