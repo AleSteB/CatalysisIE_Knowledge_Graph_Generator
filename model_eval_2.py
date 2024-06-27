@@ -37,7 +37,7 @@ with open("config.json") as json_config:
         set_config_key(key, value)
 
 # TODO: Checkpoint dynamisch einbauen!
-ckpt_name = "CatalysisIE/checkpoint/train_demo1_checkpoint.ckpt"
+ckpt_name = "CatalysisIE/checkpoint/train_demo1_checkpoint-v4.ckpt"
 #ckpt_name = "CatalysisIE/checkpoint/CV_0.ckpt"
 model = BERTSpan.load_from_checkpoint(ckpt_name, model_name=bert_name, train_dataset=[], val_dataset=[], test_dataset=[])
 
@@ -45,7 +45,7 @@ out_dict = {}
 label_list = ["Reactant","Product", "Characterization","Reaction","Catalyst","Treatment"]
 
 
-with open("./project-1-at-2024-06-25.json") as f:
+with open("./Project_new1.json") as f:
     label_data = json.load(f)
 
 for i in glob.iglob(path):
@@ -72,6 +72,8 @@ for i in glob.iglob(path):
         word_list_man = []
         word_list_mod = []
 
+        label_man_index = {}
+
         out_dict[entry_annotation_lst] = []
         """
         out_dict = {1: {man: int, man_labels: {label1 : int, label2: int...}, model_name: int, model_name_labels: {label1:int, label2:int,...}, ...}, {2:...},...}
@@ -82,14 +84,36 @@ for i in glob.iglob(path):
             label_dict_manual[item["value"]["labels"][0]] += 1
             word_list_man.append(item["value"]["text"])
 
-            if item["value"]["text"] in categories.keys():
-                if categories[item["value"]["text"]] == item["value"]["labels"][0]:
-                    # contained in both manually and automatically labeled data
-                    label_dict_model[item["value"]["labels"][0]] += 1
-                    word_list_mod.append(item["value"]["text"])
+            label_man_index[item["value"]["text"]] = item["value"]["labels"][0]
+
+            category_keys = categories.keys()
+            #list(set(, chem_list))
+
+            if item["value"]["text"].rstrip('s') in [s.rstrip('s') for s in category_keys]:
+                try:
+                    if categories[item["value"]["text"]] == item["value"]["labels"][0]:
+                        # contained in both manually and automatically labeled data
+                        label_dict_model[item["value"]["labels"][0]] += 1
+                        word_list_mod.append(item["value"]["text"])
+                except:
+                    if categories[item["value"]["text"].rstrip('s')] == item["value"]["labels"][0]: # try again without trailing s in model-labeled data
+                        # contained in both manually and automatically labeled data
+                        label_dict_model[item["value"]["labels"][0]] += 1
+                        word_list_mod.append(item["value"]["text"])
+
+        for i in chem_list:
+            if i not in word_list_mod and i in list(label_man_index.keys()):
+                    try:
+                        label_dict_model[label_man_index[i]] += 1
+                        word_list_mod.append(i)
+                    except:
+                        print("Correct label for '{}' not clear. Assumed as Catalyst".format(i))
+                        label_dict_model["Catalyst"] += 1
+                        word_list_mod.append(i)
+
 
         num_lab_man = len(set(word_list_man))
-        num_lab_mod = len(word_list_mod)
+        num_lab_mod = len(set(word_list_mod))
 
         recall = num_lab_mod/num_lab_man
 
@@ -101,7 +125,6 @@ for i in glob.iglob(path):
         deviation = statistics.stdev(prec_classes)
         prec = sum(prec_classes)/len(label_list)
         out_dict[entry_annotation_lst] = {"man": num_lab_man, "man_labels": label_dict_manual, "base_model": num_lab_mod, "base_model_labels":label_dict_model, "recall": recall, "precision": prec, "st_dev": deviation, "doi": doi}
-
 
     with open("./out_dict_base_own_mod.json",'w') as f:
         json.dump(out_dict, f)
