@@ -37,15 +37,15 @@ with open("config.json") as json_config:
         set_config_key(key, value)
 
 # TODO: Checkpoint dynamisch einbauen!
-#ckpt_name = "CatalysisIE/checkpoint/train_demo1_checkpoint-v4.ckpt"
-ckpt_name = "CatalysisIE/checkpoint/CV_0.ckpt"
+ckpt_name = "CatalysisIE/checkpoint/train_demo1_checkpoint-v4.ckpt"
+#ckpt_name = "CatalysisIE/checkpoint/CV_0.ckpt"
 model = BERTSpan.load_from_checkpoint(ckpt_name, model_name=bert_name, train_dataset=[], val_dataset=[], test_dataset=[])
 
 out_dict = {}
 label_list = ["Reactant","Product", "Characterization","Reaction","Catalyst","Treatment"]
 
 
-with open("./Project_new1.json") as f:
+with open("./methanation-manual_labels.json") as f:
     label_data = json.load(f)
 
 for i in glob.iglob(path):
@@ -108,9 +108,32 @@ for i in glob.iglob(path):
                         label_dict_model[label_man_index[i]] += 1
                         word_list_mod.append(i)
                     except:
-                        print("Correct label for '{}' not clear. Assumed as Catalyst".format(i))
-                        label_dict_model["Catalyst"] += 1
                         word_list_mod.append(i)
+
+                        # Token detected without classification -> subsuming acc. to Fig 2 of Zhang et al. https://github.com/nsndimt/CatalysisIE/blob/main/JCIM2022.pdf
+                        if label_dict_model["Catalyst"] != label_dict_manual["Catalyst"]:
+                            label_dict_model["Catalyst"] += 1
+                            print("Correct label for '{}' not clear. Assumed as Catalyst".format(i))
+
+                        elif label_dict_model["Product"] != label_dict_manual["Product"]:
+                            label_dict_model["Product"] += 1
+                            print("Correct label for '{}' not clear. Assumed as Product".format(i))
+
+                        elif label_dict_model["Reactant"] != label_dict_manual["Reactant"]:
+                            label_dict_model["Reactant"] += 1
+                            print("Correct label for '{}' not clear. Assumed as Reactant".format(i))
+
+                        elif label_dict_model["Reaction"] != label_dict_manual["Reaction"]:
+                            label_dict_model["Reaction"] += 1
+                            print("Correct label for '{}' not clear. Assumed as Reaction".format(i))
+
+                        elif label_dict_model["Characterization"] != label_dict_manual["Characterization"]:
+                            label_dict_model["Characterization"] += 1
+                            print("Correct label for '{}' not clear. Assumed as Characterization".format(i))
+
+                        else:
+                            label_dict_model["Treatment"] += 1
+                            print("Correct label for '{}' not clear. Assumed as Treatment".format(i))
             else:
                 print("Correct label for '{}' not clear, entry omitted.".format(i))
 
@@ -126,10 +149,10 @@ for i in glob.iglob(path):
                 prec_classes.append(label_dict_model[lab_class]/label_dict_manual[lab_class])
 
         deviation = statistics.stdev(prec_classes)
-        prec = sum(prec_classes)/len(label_list)
-        out_dict[entry_annotation_lst] = {"man": num_lab_man, "man_labels": label_dict_manual, "base_model": num_lab_mod, "base_model_labels":label_dict_model, "recall": recall, "precision": prec, "st_dev": deviation, "doi": doi, "token_man":list(set(word_list_man)),"token_mod":list(set(word_list_mod))}
+        prec = sum(prec_classes)/len(prec_classes)
+        out_dict[entry_annotation_lst] = {"man": num_lab_man, "man_labels": label_dict_manual, "base_model": num_lab_mod, "base_model_labels":label_dict_model, "recall": recall, "precision": prec, "st_dev": deviation, "doi": doi, "token_man":label_man_index,"token_mod":list(set(word_list_mod)), "abstract": abstract}
 
-    with open("./out_dict_base_mod.json",'w') as f:
+    with open("./out_dict_base_own_mod_methanation.json",'w') as f:
         json.dump(out_dict, f)
 
 

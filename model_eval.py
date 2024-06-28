@@ -37,8 +37,8 @@ with open("config.json") as json_config:
         set_config_key(key, value)
 
 # TODO: Checkpoint dynamisch einbauen!
-ckpt_name = "CatalysisIE/checkpoint/train_demo1_checkpoint-v4.ckpt"
-#ckpt_name = "CatalysisIE/checkpoint/CV_0.ckpt"
+#ckpt_name = "CatalysisIE/checkpoint/train_demo1_checkpoint-v4.ckpt"
+ckpt_name = "CatalysisIE/checkpoint/CV_0.ckpt"
 model = BERTSpan.load_from_checkpoint(ckpt_name, model_name=bert_name, train_dataset=[], val_dataset=[], test_dataset=[])
 
 out_dict = {}
@@ -152,7 +152,5 @@ for i in glob.iglob(path):
         prec = sum(prec_classes)/len(prec_classes)
         out_dict[entry_annotation_lst] = {"man": num_lab_man, "man_labels": label_dict_manual, "base_model": num_lab_mod, "base_model_labels":label_dict_model, "recall": recall, "precision": prec, "st_dev": deviation, "doi": doi, "token_man":label_man_index,"token_mod":list(set(word_list_mod)), "abstract": abstract}
 
-    with open("./out_dict_base_own_mod.json",'w') as f:
+    with open("./out_dict_base_mod.json",'w') as f:
         json.dump(out_dict, f)
-
-
