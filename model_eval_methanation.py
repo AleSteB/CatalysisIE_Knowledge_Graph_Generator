@@ -25,7 +25,7 @@ def find_id_by_text(nested_list, search_text):
     return None
 
 def id_from_abstr_snippet(nested_list, search_text):
-    for i in range(len(abstract), 8, -5):
+    for i in range(len(abstract), 15, -1):
         res = find_id_by_text(label_data, abstract[1:i])
         if res is not None:
             return res
@@ -45,12 +45,16 @@ out_dict = {}
 label_list = ["Reactant","Product", "Characterization","Reaction","Catalyst","Treatment"]
 
 
-with open("./methanation-manual_labels.json") as f:
+with open("./methanation-manual_labels.json", encoding='utf-8') as f:
     label_data = json.load(f)
 
 for i in glob.iglob(path):
     abstract = None
-    title, doi, publisher = get_metadata(i)
+    try:
+        title, doi, publisher = get_metadata(i)
+    except:
+        print("Metadata not found for {}".format(i))
+
     if doi == None:
         continue
     print(title+' : '+doi)
