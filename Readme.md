@@ -13,6 +13,10 @@ main_folder
 ├── import
 ├── ontologies
 ├── ontology_snipet
+├── CatalysisIE
+├── PDFDataExtractor
+├── robot
+├── output
 └── classlist
 ```
  	
