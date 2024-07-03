@@ -2,7 +2,7 @@
   "path": ".\\import\\*.pdf",
   "ckpt_name": "CatalysisIE/checkpoint/train_demo1_checkpoint.ckpt",
   "bert_name": "CatalysisIE/pretrained/scibert_domain_adaption",
-  "apikey": "f2302a8c33c3c6dc589a1fe03915f376",
+  "apikey": "your-SCOPUS-API-KEY",
   "onto_list": {
     "ChEBI": "./ontologies/chebi.owl",
     "RXNO": "http://purl.obolibrary.org/obo/rxno.owl",
@@ -11,6 +11,6 @@
   },
   "onto_old": "afo",
   "onto_new": "afo_new",
-  "path_snipet": ".\\ontology_snippet\\",
+  "path_snipet": ".\\ontology_snipet\\",
   "path_class_list": ".\\class_lists\\"
 }
