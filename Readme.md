@@ -20,3 +20,6 @@ main_folder
 - install PDFDataExtractor
 
 - uses robot from OBO foundry
+
+
+- Tables listing the output of the queries as described in the paper are listed in ./output/
