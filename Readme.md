@@ -26,7 +26,6 @@ main_folder
 
 -	Global variables listed in config.json must be adjusted for the process
 
-
 ### CatalysisIE Checkpoint
 The checkpoint of the extended CatalysisIE model is found here:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12634956.svg)](https://doi.org/10.5281/zenodo.12634956)
