@@ -11,15 +11,11 @@ main_folder
 ```
  	
 -	The ontology to be extended must be stored in the “ontologies” folder;
--	main_folder can also have a different name. Important is that all Python modules together with config.json are placed inside it;
+-	The following modules need to be installed/placed here:
+	-	Pytorch version 1.8.0 and cuda toolkit version 11.1
+	-	CatalysisIE (https://github.com/nsndimt/CatalysisIE)
+	-	Robot command line tool (http://robot.obolibrary.org/)
+	-	PDFDataExtractor (https://pdfdataextractor.readthedocs.io/en/latest/getting_started/installation.html)
 -	Global variables listed in config.json must be adjusted for the process.
 
-
-- install pytorch version 1.8.0 and cuda toolkit version 11.1
-- install CatalysisIE
-- install PDFDataExtractor
-
-- uses robot from OBO foundry
-
-
-- Tables listing the output of the queries as described in the paper are listed in ./output/
+- Tables listing the output of the queries as described in the paper are listed in the [output](./output/) folder
