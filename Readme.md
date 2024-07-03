@@ -26,7 +26,7 @@ main_folder
 	-	Clone the CatalysisIE (https://github.com/nsndimt/CatalysisIE) repository and download their checkpoints if needed
 	-	Robot command line tool (http://robot.obolibrary.org/)
 	-	PDFDataExtractor (https://pdfdataextractor.readthedocs.io/en/latest/getting_started/installation.html)
-	- 	More details regarding modules listed in [cat_environment.yml](./cat_environment.yml) and [cat_environment.txt](./cat_environment.txt)
+	- 	More details regarding modules listed in [cat_environment.yml](./envs/cat_environment.yml) and [cat_environment.txt](./envs/cat_environment.txt)
 
 -	Global variables listed in config.json must be adjusted for the process
 
