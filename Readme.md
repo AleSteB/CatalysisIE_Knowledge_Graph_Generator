@@ -23,9 +23,17 @@ main_folder
 	-	Robot command line tool (http://robot.obolibrary.org/)
 	-	PDFDataExtractor (https://pdfdataextractor.readthedocs.io/en/latest/getting_started/installation.html)
 	- 	More details regarding modules listed in [cat_environment.yml](./cat_environment.yml) and [cat_environment.txt](./cat_environment.txt)
+
 -	Global variables listed in config.json must be adjusted for the process
 
 
+## MODEL
+
+### Usage
+
+1. Execute `create_ChEBIdict.py` to create a dictionary of all ChEBI classes for later entity recognition (might take some time)
+2. Place PDFs in folder import 
+3. Check `config.json` and adjust settings where necessary
+4. Execute `run_pdfs.py` (this uses modules `txt_extract.py`, `text_mining`, `preprocess_onto`, and `onto_extension`)
 
 
-# use
