@@ -40,7 +40,7 @@ The checkpoint of the extended CatalysisIE model is found here:
 1. Execute `create_ChEBIdict.py` to create a dictionary of all ChEBI classes for later entity recognition (might take some time)
 2. Place PDFs in folder import 
 3. Make sure a model for 
-3. Check `config.json` and adjust settings where necessary
+3. Insert your Scopus API key in `config.json` and adjust other settings where necessary
 4. Execute `run_pdfs.py` (this uses modules `txt_extract.py`, `text_mining.py`, `preprocess_onto.py`, and `onto_extension.py` and stores resulting knowledge graph in [ontologies](./ontologies/))
 5. Execute the jupyter notebook `user_queries.ipynb` for predefined queries on the resulting knowledge graph
 
