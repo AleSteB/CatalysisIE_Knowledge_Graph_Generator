@@ -201,7 +201,7 @@ def equality():
                     if str(iri_snip) == str(iri_old):
                         continue
                     else:
-                        if iri_old:
+                        if iri_old and onto.search_one(iri=iri_old) != None:
                             eq.append(c_2.label[0])
                             onto.search_one(iri=iri_old).equivalent_to.append(onto.search_one(iri=iri_snip))
                             onto.search_one(iri=iri_old).comment = ([
