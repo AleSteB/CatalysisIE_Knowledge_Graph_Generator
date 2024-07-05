@@ -522,7 +522,7 @@ def create_classes_onto(abbreviation, sup_cat, missing, match_dict, df_entity,re
                 if c in onto_names.keys():
                         if c.lower() not in [i.label[0].lower() for i in onto.individuals() if i.label]:
                             cem = onto.search_one(label = onto_names[c])
-                            print('cem:{}'.format(c))
+                            print('cem:{}, onto:{}'.format(c, str(onto.name)))
                             onto,_ = add_individum(onto,cem, c,p_id = p_id)
                 else:
                     if len(c.split()) > 1:
