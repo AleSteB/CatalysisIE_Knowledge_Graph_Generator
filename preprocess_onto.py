@@ -54,7 +54,8 @@ def create_list_IRIs(class_list, IRI_json_filename = 'iriDictionary'):
     f.close()
     match_dict = {}
     missing=[]
-    onto_names = list(onto_list.keys()) 
+    onto_names = list(onto_list.keys())
+    print(onto_names)
     new_world=owlready2.World()
     onto= new_world.get_ontology('./ontologies/{}.owl'.format(onto_new)).load()
     entities_all=[c.label[0] for c in onto.classes() if c.label]
@@ -141,7 +142,7 @@ def onto_extender ():
     for o,iri in onto_list.items():
         if o== "AFO":
             continue
-        elif "ontologies" in iri:
+        elif "/ontologies/" in iri:
             os.system('java -jar {}/robot/robot.jar extract --input {} --method BOT --term-file class_lists/IRIs_{}.txt --output ontology_snipet/{}_classes.owl'.format(cwdir_path,iri,o,o))
         else:
             # The first path leads to robot.jar and may need to be modified by the user.
@@ -150,7 +151,11 @@ def onto_extender ():
             # --term-file: is the text file, in which the IRI's are stored, which are to be searched for.
             os.system('java -jar {}/robot/robot.jar extract --input-iri {} --method BOT --term-file class_lists/IRIs_{}.txt --output ontology_snipet/{}_classes.owl'.format(cwdir_path,iri,o,o))
     for filepath in glob.iglob('ontology_snipet/*.owl'):
-        os.system('{}robot/robot.jar merge --input ontologies/{}.owl --input {} --output ontologies/{}.owl'.format(cwdir_path, onto_new, filepath,  onto_new))
+        os.system('java -jar {}/robot/robot.jar merge --input ontologies/{}.owl --input {} --output ontologies/{}.owl'.format(cwdir_path, onto_new, filepath,  onto_new))
+        print('java -jar {}/robot/robot.jar merge --input ontologies/{}.owl --input {} --output ontologies/{}.owl'.format(cwdir_path,
+                                                                                                         onto_new,
+                                                                                                         filepath,
+                                                                                                         onto_new))
         #os.system('robot merge --input empty.owl --input {} --output empty.owl'.format(filepath))
 
 def equality():
@@ -190,12 +195,13 @@ def equality():
         try:
             new_world2 = owlready2.World()
             onto_snip = new_world2.get_ontology("./ontology_snipet/{}_classes.owl".format(o)).load()
+            #onto = new_world4.get_ontology("./ontology_snipet/{}_classes.owl".format(o)).load()
         except:
             print('no entity from {} ontology found'.format(o))
         else:
             for c_2 in list(onto_snip.classes()):
                 if c_2.label[0] in labels_old:
-                    
+
                     iri_snip=c_2.iri
                     iri_old=onto_old1.search_one(label=c_2.label[0]).iri
                     if str(iri_snip) == str(iri_old):
@@ -204,6 +210,7 @@ def equality():
                         if iri_old and onto.search_one(iri=iri_old) != None and onto.search_one(iri=iri_snip) != None:
                             eq.append(c_2.label[0])
                             onto.search_one(iri=iri_old).equivalent_to.append(onto.search_one(iri=iri_snip))
+                            print("equivalence found ")
                             onto.search_one(iri=iri_old).comment = ([
                                 'Equivalence with {} added automatically'.format(c_2.iri)])
                             onto.search_one(iri=iri_snip).comment = ([
