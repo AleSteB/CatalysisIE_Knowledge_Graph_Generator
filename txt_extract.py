@@ -377,7 +377,7 @@ def get_abstract(path, doi, publisher):
     
 
      
-    if ('ACS' or 'American Chemical Society') in publisher:
+    if ('ACS' or 'American Chemical Society' or 'American Chemistry Society') in publisher:
         file= Reader()
         pdf= file.read_file(path)
         abstract=pdf.abstract()
@@ -414,6 +414,7 @@ def get_metadata(filename):
     file= Reader()
     pdf= file.read_file(filename)
     manual_prep= False
+    print(filename)
     try:
         title=pdf.title()
     except:
