@@ -8,6 +8,7 @@ from owlready2 import *
 import pandas as pd
 from bs4 import BeautifulSoup 
 import itertools
+import pybliometrics
 from pybliometrics.scopus import ScopusSearch
 import spacy
 #query function for reaction retrieval
@@ -467,6 +468,7 @@ def get_entities(doi):
     return sup_all, cat_all, reactant_all, product_all, cat_full_all
 
 def scopus_seach_process(doi, onto_pub_list ):
+    pybliometrics.scopus.init()
     queries=[]
     columns= ['eid',
           'doi',
