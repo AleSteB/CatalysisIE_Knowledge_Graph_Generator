@@ -1,0 +1,4 @@
+http://purl.obolibrary.org/obo/CHEBI_30704  # molybdenum disulfide
+http://purl.obolibrary.org/obo/CHEBI_30879  # alcohol
+http://purl.obolibrary.org/obo/CHEBI_25805  # oxygen atom
+http://purl.obolibrary.org/obo/CHEBI_27594  # carbon atom

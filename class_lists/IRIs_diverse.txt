@@ -1,0 +1,3 @@
+http://purl.obolibrary.org/obo/CHEBI_17245  # carbon monoxide
+http://purl.obolibrary.org/obo/CHEBI_25367  # molecule
+http://purl.obolibrary.org/obo/CHEBI_25367  # molecule
