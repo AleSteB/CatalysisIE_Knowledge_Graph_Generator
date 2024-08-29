@@ -150,7 +150,7 @@ def onto_extender ():
             # --term-file: is the text file, in which the IRI's are stored, which are to be searched for.
             os.system('java -jar {}/robot/robot.jar extract --input-iri {} --method BOT --term-file class_lists/IRIs_{}.txt --output ontology_snipet/{}_classes.owl'.format(cwdir_path,iri,o,o))
     for filepath in glob.iglob('ontology_snipet/*.owl'):
-        os.system('{}robot/robot.jar merge --input ontologies/{}.owl --input {} --output ontologies/{}.owl'.format(cwdir_path, onto_new, filepath,  onto_new))
+        os.system('{}/robot/robot.jar merge --input ontologies/{}.owl --input {} --output ontologies/{}.owl'.format(cwdir_path, onto_new, filepath,  onto_new))
         #os.system('robot merge --input empty.owl --input {} --output empty.owl'.format(filepath))
 
 def equality():
