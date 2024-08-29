@@ -520,10 +520,19 @@ def create_classes_onto(abbreviation, sup_cat, missing, match_dict, df_entity,re
         if row.cems:                     
             for c in row.cems:
                 if c in onto_names.keys():
+                    try:
                         if c.lower() not in [i.label[0].lower() for i in onto.individuals() if i.label]:
                             cem = onto.search_one(label = onto_names[c])
-                            print('cem:{}, onto:{}'.format(c, str(onto.name)))
+                            print('cem:{}, c:{}, onto:{}'.format(str(cem.name),c, str(onto.name)))
                             onto,_ = add_individum(onto,cem, c,p_id = p_id)
+                    except:
+                        if cem != None:
+                            print('EXCEPTION: cem:{}, c:{}'.format(str(cem.name), c))
+                        elif onto != None:
+                            print('EXCEPTION: c:{}, onto:{}'.format(c, str(onto.name)))
+                            print('No cem found for label {}'.format(onto_names[c]))
+                        continue
+
                 else:
                     if len(c.split()) > 1:
                         for i in range(len(c.split())):
@@ -591,7 +600,11 @@ def create_classes_onto(abbreviation, sup_cat, missing, match_dict, df_entity,re
                 i = len(k.split())-1
                     
                 if k in onto_names.keys() and k not in [c.label[0] for c in onto.individuals() if c.label]:
-                    onto, _ = add_individum(onto,onto.search_one(label = onto_names[k]), k,p_id = p_id)     
+                    onto, _ = add_individum(onto, onto.search_one(label=onto_names[k]), k, p_id=p_id)
+                    if onto.search_one(label=onto_names[k]) != None:
+                        onto, _ = add_individum(onto,onto.search_one(label = onto_names[k]), k,p_id = p_id)
+                    else:
+                        print('label {} not found'.format(str(onto_names[k])))
                 elif k in onto_names.values() and k not in [c.label[0] for c in onto.individuals() if c.label]:
                     onto, _ = add_individum(onto,onto.search_one(label = k), k,p_id = p_id)
                 elif k.split()[i] in onto_names.keys():
@@ -870,7 +883,8 @@ def add_individum(onto,super_class, ind,p_id):
         if new_i:
             new_i = new_i[0]
         else:
-            new_i =  super_class('DC_{:02d}{:02d}'.format(p_id,num))
+            print(type(super_class), super_class)
+            new_i = super_class('DC_{:02d}{:02d}'.format(p_id,num))
             num += 1
             
             new_i.label.append(ind)
@@ -918,12 +932,18 @@ def create_sub_super(missing, onto, idx, indecies, entities, sup_sub_df, created
         if subclass:
             if subclass.lower() not in created_classes and subclass.lower() not in classes_all:
                 if super_class_l== 'chemical substance' or super_class_l in chem_list: #or super_class_l in abbreviation.keys()
-                    onto, _ = add_individum(onto,super_class, subclass,p_id)
-                    new_sub = super_class
+                    if super_class != None:
+                        onto, _ = add_individum(onto,super_class, subclass,p_id)
+                        new_sub = super_class
+                    else:
+                        print("undefined superclass for indv {}".format(str(subclass.lower())))
+                        new_sub = subclass
+
                 else:
                     class_name = 'DC_{:02d}{:02d}'.format(p_id, num)
                     num += 1
-                    new_sub = types.new_class( class_name,(super_class,))        
+                    new_sub = types.new_class(class_name,(super_class,))
+                    #new_sub = types.new_class(class_name, super_class)
                     new_sub.comment.append('created automatically') 
                     new_sub.label.append(subclass)
                     created_classes.append(subclass.lower())
