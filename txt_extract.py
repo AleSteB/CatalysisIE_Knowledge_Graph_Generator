@@ -373,17 +373,24 @@ def pdf_title(filename):
         return title
     return os.path.basename(os.path.splitext(filename)[0])
 
-def get_abstract(path, doi, publisher):                                    
-    
-
-     
+def get_abstract(path, doi, publisher):
+    pub_title = None
     if ('ACS' or 'American Chemical Society') in publisher:
         file= Reader()
-        pdf= file.read_file(path)
-        abstract=pdf.abstract()
+        if path != None:
+            pdf= file.read_file(path)
+            abstract=pdf.abstract()
+        else:
+            ab = AbstractRetrieval(doi)
+            abstract = ab.abstract
+            pub_title = ab.title
+            if not abstract:
+                abstract = ab.description
+
     elif publisher:
         ab = AbstractRetrieval(doi)
         abstract=ab.abstract
+        pub_title = ab.title
         #keywords=ab.authkeywords
         if not abstract:
             abstract=ab.description
@@ -398,7 +405,7 @@ def get_abstract(path, doi, publisher):
         #keywords=abstract[re.search(r'K[Ee][Yy][Ww][Oo][Rr][Dd][Ss][:]?', abstract).end():]
         #abstract=abstract[re.search(:r'K[Ee][Yy][Ww][Oo][Rr][Dd][Ss][:]?', abstract).start()]
         #keywords = re.findall(r'[a-zA-Z]\w+',text)
-    return abstract
+    return abstract, pub_title
 
 def is_majority_included(list1, list2, threshold=0.8):
     # Count how many items from list1 are in list2
