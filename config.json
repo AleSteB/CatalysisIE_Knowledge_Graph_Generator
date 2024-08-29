@@ -12,5 +12,6 @@
   "onto_old": "afo",
   "onto_new": "afo_new",
   "path_snipet": ".\\ontology_snippet\\",
-  "path_class_list": ".\\class_lists\\"
+  "path_class_list": ".\\class_lists\\",
+  "iter_mode": "list"
 }
