@@ -1,4 +1,4 @@
-http://purl.obolibrary.org/obo/CHEBI_25741  # oxide
+http://purl.obolibrary.org/obo/CHEBI_30704  # molybdenum disulfide
+http://purl.obolibrary.org/obo/CHEBI_30879  # alcohol
 http://purl.obolibrary.org/obo/CHEBI_25805  # oxygen atom
-http://purl.obolibrary.org/obo/CHEBI_33359  # rhodium atom
-http://purl.obolibrary.org/obo/CHEBI_27998  # tungsten
+http://purl.obolibrary.org/obo/CHEBI_27594  # carbon atom
