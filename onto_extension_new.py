@@ -126,36 +126,39 @@ def preprocess_classes(categories,abbreviation, onto_new_dict, sup_cat, rel_syno
                     based_m = re.search('based',entity)
                     if based_m.start() != 0 or entity[:based_m.start()-1].lower() != 'catalyst': 
                         e_snip = entity[:based_m.start()-1]
-                        e_snip_old = entities_raw[entity][0][:based_m.start()-1]
-                        e_cleaned = e_snip
-                        for c in chem_entity:
-                            pattern ='\\b'+c+'\\b'
-                            if re.search(pattern,e_snip): 
-                                e_snip = e_snip[e_snip.index(c)+len(c)+1:]
-                                c_t = rel_synonym[c] 
-                                if c_t not in spans_n:    
-                                    spans_n.append(c_t)
-                                if re.search('[Ss]upported', e_snip_old):
-                                    e_cleaned = e_snip[re.search('[sS]upported',e_snip).end()+1:]
-                                    support.append(c_t)
-                                    continue
-                                e_snip=e_snip.replace(c,'')
+                        if e_snip != None:
+                            e_snip_old = entities_raw[entity][0][:based_m.start()-1]
+                            e_cleaned = e_snip
+                            for c in chem_entity:
+                                pattern ='\\b'+c+'\\b'
+                                if re.search(pattern,e_snip):
+                                    e_snip = e_snip[e_snip.index(c)+len(c)+1:]
+                                    c_t = rel_synonym[c]
+                                    if c_t not in spans_n:
+                                        spans_n.append(c_t)
+                                    if re.search('[Ss]upported', e_snip_old) and e_snip != '':
+                                        print('esnip: ' + str(e_snip))
+                                        e_cleaned = e_snip[re.search('[sS]upported',e_snip).end()+1:]
+                                        support.append(c_t)
+                                        continue
+                                    e_snip=e_snip.replace(c,'')
 
                         if 'catalyst' in e_cleaned:
                                 classes,_ = check_in_snip(e_cleaned, classes, entity,l,chem_entity)
                         if entity[based_m.end()+1:] != 'catalyst':
                             s_on = False
                             e_snip = entity[based_m.end()+1:]
-                            e_snip_old = entities_raw[entity][0][based_m.end()+1:]
-                            if ' on ' in e_snip: #based on/ based exclusivelly on
-                                if re.search('supported on', e_snip_old):
-                                    s_on = True
-                                    sup_i = True
-                                    #Rh-Co based system supported on alumina, titania and silica
-                                    e_btwn=e_snip[re.search('supported on', e_snip).end():]
-                                else:
-                                    based_m = re.search('on',entity)
-                                e_snip = entity[based_m.end()+1:]
+                            if e_snip != None:
+                                e_snip_old = entities_raw[entity][0][based_m.end()+1:]
+                                if ' on ' in e_snip: #based on/ based exclusivelly on
+                                    if re.search('supported on', e_snip_old):
+                                        s_on = True
+                                        sup_i = True
+                                        #Rh-Co based system supported on alumina, titania and silica
+                                        e_btwn=e_snip[re.search('supported on', e_snip).end():]
+                                    else:
+                                        based_m = re.search('on',entity)
+                                    e_snip = entity[based_m.end()+1:]
                                 
                             if re.search('supported', e_snip_old) and s_on==False: 
                                         #based on silica supported bimetallic catalysts
@@ -228,7 +231,11 @@ def preprocess_classes(categories,abbreviation, onto_new_dict, sup_cat, rel_syno
                 for c in chem_entity: #hydride hydroformulation
                     pattern = '\\b'+c+'\\b'
                     if re.search(pattern,entity):
-                        c_t = rel_synonym[c] 
+                        try:
+                            c_t = rel_synonym[c]
+                        except:
+                            c_t = None
+                            continue
                         if c_t not in spans_n:    
                             spans_n.append(c_t) 
             spans_dict[entity].extend(spans_n)                
@@ -676,15 +683,20 @@ def create_classes_onto(abbreviation, sup_cat, missing, match_dict, df_entity,re
                                     onto, ind = add_individum(onto,mol, c,p_id)
                             if c in sup_cat.keys():
                                 ind.RO_0000087.append(support_role_i) #'has role' = RO_0000087
-                                ind.support_component_of.append(e_ind)
-                                for k in row.cems:
-                                    if k in sup_cat[c]:
-                                        try:
-                                            cat=[i for i in list(onto.search(label=k)) if i in list(onto.individuals())][0]
-                                        except:
-                                            onto, cat=add_individum(onto,list(onto.search(label=k))[0], c,p_id)
-                                        cat.supported_on.append(ind)
-                                        cat.catalytic_component_of.append(e_ind)  
+                                print('e_ind: '+ str(e_ind))
+                                if e_ind != []:
+                                    ind.support_component_of.append(e_ind)
+                                    for k in row.cems:
+                                        if k in sup_cat[c]:
+                                            try:
+                                                cat=[i for i in list(onto.search(label=k)) if i in list(onto.individuals())][0]
+                                            except:
+                                                onto, cat=add_individum(onto,list(onto.search(label=k))[0], c,p_id)
+                                            cat.supported_on.append(ind)
+                                            cat.catalytic_component_of.append(e_ind)
+                                else:
+                                    print('entity: '+str(row.entity)+'category: '+str(row.category))
+
                         if row.category== 'Product':
                             ind.RO_0000087.append(prod_role_i)
                         elif row.category =='Reactant':
@@ -829,6 +841,7 @@ def create_subclass(onto,subclass,entities,super_class,created_classes,chem_list
     
     if [c for c in chem_list if re.search(r'\b[\d.,%]*{}\b'.format(re.escape(c)),subclass) if c != subclass]:
         print('subclass:{}'.format(subclass))
+        print('superclass:{}'.format(super_class))
         if subclass.lower() not in created_ind:
             onto, new_i = add_individum(onto,super_class,subclass,p_id)            
         else:
