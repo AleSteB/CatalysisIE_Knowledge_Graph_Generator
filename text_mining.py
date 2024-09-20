@@ -838,9 +838,12 @@ def fill_synonyms(synonyms,c,v,k):
     if c not in synonyms.keys():
                 synonyms[c] = []
     for s in v:
-        if re.search(pattern,s): 
-            if k not in synonyms[c]:
-                synonyms[c].append(k)    
+        try:
+            if re.search(pattern,s):
+                if k not in synonyms[c]:
+                    synonyms[c].append(k)
+        except:
+            print(str(pattern)+str(s))
     
     for i in synonyms[c]:
         if re.search(pattern,i):
