@@ -132,8 +132,13 @@ def search_value_in_nested_dict(value, onto_names, onto_dict, match_dict):
             k='ChEBI'
         for IRI in onto_dict[k].keys() :
             for key, val in onto_dict[k][IRI].items():
-                if val and (value.lower() == val.lower() or value.lower()+' (molecule)'==val.lower()):
-                    match_dict[IRI] = [value,val]            
+                if type(val) != list:
+                    if val and (value.lower() == val.lower() or value.lower()+' (molecule)'==val.lower()):
+                        match_dict[IRI] = [value,val]
+                else:
+                    for val_iter in val:
+                        if val_iter and (value.lower() == val_iter.lower() or value.lower() + ' (molecule)' == val_iter.lower()):
+                            match_dict[IRI] = [value, val_iter]
     return match_dict
 
 def onto_extender ():
