@@ -843,7 +843,13 @@ def fill_synonyms(synonyms,c,v,k):
                 if k not in synonyms[c]:
                     synonyms[c].append(k)
         except:
-            print(str(pattern)+str(s))
+            pattern = r'^{}$'.format(c.strip("()$"))
+            try:
+                if re.search(pattern,s):
+                    if k not in synonyms[c]:
+                        synonyms[c].append(k)
+            except:
+                print(str(pattern)+str(s))
     
     for i in synonyms[c]:
         if re.search(pattern,i):
