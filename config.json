@@ -10,7 +10,7 @@
     "AFO": "./ontologies/afo.owl"
   },
   "onto_old": "afo",
-  "onto_new": "afo_new_bascat",
+  "onto_new": "afo_new_bascat_50pubs",
   "path_snipet": ".\\ontology_snipet\\",
   "path_class_list": ".\\class_lists\\",
   "iter_mode": "list"
