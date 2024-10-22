@@ -65,7 +65,7 @@ if iter_mode == "pdf":
             match_d_all.update(match_dict_all)
 
 elif iter_mode == "list":
-    with open('./import/DOI-Seed.csv') as csvfile:
+    with open('./import/DOI-Seed-50.csv') as csvfile:
         doi_list = list(csv.reader(csvfile))
 
     for i in doi_list:
