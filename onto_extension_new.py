@@ -530,7 +530,9 @@ def create_classes_onto(abbreviation, sup_cat, missing, match_dict, df_entity,re
                         if c.lower() not in [i.label[0].lower() for i in onto.individuals() if i.label]:
                             cem = onto.search_one(label = onto_names[c])
                             print('cem:{}'.format(c))
-                            onto,_ = add_individum(onto,cem, c,p_id = p_id)
+                            if cem != None:
+                                onto,_ = add_individum(onto,cem, c,p_id = p_id)
+
                 else:
                     if len(c.split()) > 1:
                         for i in range(len(c.split())):
@@ -883,11 +885,16 @@ def add_individum(onto,super_class, ind,p_id):
         if new_i:
             new_i = new_i[0]
         else:
-            new_i =  super_class('DC_{:02d}{:02d}'.format(p_id,num))
-            num += 1
+            try:
+                new_i = super_class('DC_{:02d}{:02d}'.format(p_id,num))
+                num += 1
             
-            new_i.label.append(ind)
-            new_i.comment.append('created automatically')                
+                new_i.label.append(ind)
+                new_i.comment.append('created automatically')
+
+            except:
+                print("Not able to add individual to class {}. Check if submitted class 'super_class' is not None")
+
     return onto, new_i        
 
 def create_sub_super(missing, onto, idx, indecies, entities, sup_sub_df, created_classes, chem_list, abbreviation,p_id, subclass = None ):
