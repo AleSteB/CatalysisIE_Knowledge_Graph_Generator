@@ -594,7 +594,10 @@ def create_classes_onto(abbreviation, sup_cat, missing, match_dict, df_entity,re
                 if k != 0:
                     if len(classes[k-1].split()) < len(classes[k].split()):
                         sup_sub_df = sup_sub_df.append({'super_class':classes[k-1],'subclass':classes[k]},ignore_index=True)
-                        classes_parent.remove(classes[k-1])                  
+                        try:
+                            classes_parent.remove(classes[k-1])
+                        except:
+                            pass
                 k += 1
             for k in classes_parent:    
                 i = len(k.split())-1
