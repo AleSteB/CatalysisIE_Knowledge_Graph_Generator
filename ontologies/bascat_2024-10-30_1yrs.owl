@@ -66168,6 +66168,8 @@ V_G = V0_M = V_M
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furylcarbinol</oboI:hasRelatedSynonym>
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alpha-furylcarbinol</oboI:hasRelatedSynonym>
   <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:207496</oboI:id>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furfuryl alcohol</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">furfural alcohol</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">furfuryl alcohol</rdfs:label>
 </owl:Class>
 
@@ -71035,6 +71037,7 @@ V_G = V0_M = V_M
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silica</oboI:hasRelatedSynonym>
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silicic anhydride</oboI:hasRelatedSynonym>
   <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:30563</oboI:id>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-SiO2</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silica</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silicon dioxide</rdfs:label>
@@ -72099,6 +72102,7 @@ V_G = V0_M = V_M
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-Furylcarboxaldehyde</oboI:hasRelatedSynonym>
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furaldehyde</oboI:hasRelatedSynonym>
   <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:34768</oboI:id>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furfural</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">furfural</rdfs:label>
 </owl:Class>
 
@@ -74683,6 +74687,10 @@ V_G = V0_M = V_M
   <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
 </owl:Class>
 
+<owl:Class rdf:about="#Cu1Co4">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+</owl:Class>
+
 <owl:Class rdf:about="#DC_0204">
   <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0000275"/>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">support material</rdfs:label>
@@ -75036,6 +75044,8 @@ V_G = V0_M = V_M
   <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K-ZrO2</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-10</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-5</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dioxozirconium</rdfs:label>
 </owl:Class>
@@ -75613,6 +75623,39 @@ V_G = V0_M = V_M
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu13Fe1Al-SiO2</rdfs:label>
 </owl:Class>
 
+<owl:Class rdf:about="#DC_9303">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NiFe</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iron;nickel</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_9500">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PtCuCo</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_9700">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoCu</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cobalt;copper</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_9701">
+  <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/process#AFP_0003711"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m FTS</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_9706">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co1Fe4</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cobalt;iron</rdfs:label>
+</owl:Class>
+
 <owl:Class rdf:about="#publication">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically; collection of processed publications</rdfs:comment>
@@ -75649,11 +75692,16 @@ V_G = V0_M = V_M
   <core:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property shape</core:prefLabel>
 </owl:Class>
 
-<owl:Class rdf:about="#DC_9303">
+<owl:Class rdf:about="#DC_9800">
   <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iron;nickel</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NiFe</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO₂</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_9801">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOF-5</rdfs:label>
 </owl:Class>
 
 <owl:NamedIndividual rdf:about="http://www.allotrope.org">
@@ -76122,6 +76170,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication88"/>
   <merg:mentioned_in rdf:resource="#publication89"/>
   <merg:mentioned_in rdf:resource="#publication90"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
   <obo:RO_0000087 rdf:resource="#DC_0206"/>
   <obo:RO_0000087 rdf:resource="#DC_0207"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO</rdfs:comment>
@@ -76343,6 +76392,15 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication90</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#publication97">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/acscatal.3c02534</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-Promoted Cu-Co, Cu-Fe and Co-Fe Catalysts for Higher Alcohol Synthesis</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:The development of efficient catalysts for the direct synthesis of higher alcohols (HA) via CO hydrogenation has remained a prominent research challenge. While modified Fischer-Tropsch synthesis (m-FTS) systems hold great potential, they often retain limited active site density under operating conditions for industrially relevant performance. Aimed at improving existing catalyst architectures, this study investigates the impact of highly dispersed metal oxides of Co-Cu, Cu-Fe, and Co-Fe m-FTS systems and demonstrates the viability of ZrO2 as a general promoter in the direct synthesis of HA from syngas. A volcano-like composition-performance relationship, in which 5-10 mol % ZrO2 resulted in maximal HA productivity, governs all catalyst families. The promotional effect resulted in a 2.5-fold increase in HA productivity for the optimized Cu1Co4@ZrO2-5 catalyst (Cu:Co = 1:4, 5 mol % ZrO2) compared to its ZrO2-free counterpart and placed Co1Fe4@ZrO2-10 among the most productive systems (345 mgHA h-1 gcat-1) reported in this category under comparable operating conditions, with stable performance for at least 300 h. ZrO2 assumes an amorphous and defective nature on the catalysts, leading to enhanced H2 and CO activation, facilitated formation of metallic and carbide phases, and structural stabilization.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1021/acscatal.3c02534</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication97</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#DC_0206">
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000360"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
@@ -76405,6 +76463,11 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication88"/>
   <merg:mentioned_in rdf:resource="#publication89"/>
   <merg:mentioned_in rdf:resource="#publication90"/>
+  <merg:mentioned_in rdf:resource="#publication93"/>
+  <merg:mentioned_in rdf:resource="#publication94"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
+  <merg:mentioned_in rdf:resource="#publication96"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
   <obo:RO_0000057 rdf:resource="#DC_0209"/>
   <obo:RO_0000057 rdf:resource="#DC_0501"/>
   <obo:RO_0000057 rdf:resource="#DC_1100"/>
@@ -76418,7 +76481,8 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <obo:RO_0000057 rdf:resource="#DC_8600"/>
   <obo:RO_0000057 rdf:resource="#DC_9200"/>
   <obo:RO_0000057 rdf:resource="#DC_9300"/>
-  <merg:mentioned_in rdf:resource="#publication93"/>
+  <obo:RO_0000057 rdf:resource="#DC_9803"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogenated</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogenation</rdfs:label>
@@ -76715,6 +76779,48 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication85</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#publication93">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.mcat.2024.114614</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of NiFe alloy phases in nanoparticles used as selective catalysts for the production of furfuryl alcohol from furfural hydrogenation</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:It is well known that the selectivity toward different products in furfural hydrogenation can be changed when Ni catalysts are promoted with Fe. To achieve this effect, both elements must be sufficiently close to each other to allow and modify the carbonyl group adsorption mode. This condition is fulfilled if Ni and Fe are alloyed. In this study, the presence of these alloys was confirmed using Mössbauer spectroscopy at 298 and 13 K on freshly reduced catalysts, where three distinct alloy phases were identified. This result was further supported by TPR assays. This is the first report indicating that the co-impregnation preparation leads to this heterogeneity in the catalysts. To verify the effect of these Ni-Fe alloys, the selectivity and activity in furfural hydrogenation were analysed. The changes in the production of furfuryl alcohol, tetrahydrofurfuryl alcohol and furan using a Ni monometallic catalyst and three bimetallic catalysts with different Fe loadings, were observed. The amount of furfuryl alcohol obtained increased significantly with the addition of Fe.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1016/j.mcat.2024.114614</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: TPR, Mössbauer spectroscopy</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: co-impregnation</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication93</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication94">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1007/s42247-023-00598-6</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Efficient selective synthesis of furfuryl alcohol from furfural over non-noble metal supported on bio-waste rice husk-derived carbon, silica, and carbon silica catalysts</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:Furfuryl alcohol is an interesting biomass-derived platform compound that is widely used and utilized as chemical intermediate in the polymer industry. Herein, the present work is aimed to produce furfuryl alcohol from hydrogenation of furfural over non-noble metal catalysts at atmospheric pressure in a continuous process. Rice husk derived (SiO2, C, and C-SiO2) supported copper-based catalysts were prepared by the wet impregnation method and have been used for the first time. In particular, the Cu/C-SiO2 catalyst used in this study showed optimal catalytic performance in the production of furfuryl alcohol (&gt; 98% selectivity), which was illustrated to positively associate with the higher dispersion and large number of Cu active sites and weak metal-support interaction. The prepared catalysts are characterized by various experiments techniques such as H2-TPR, TPD, N2O-pulse chemisorptions, FTIR, TGA, TEM, XRD, and N2 sorption characterization. The hydrogenation of furfural was investigated with different metals, such as Cu, Co, and Ni, and reveals that Cu supported on C-SiO2 showed higher furfuryl alcohol yields then Co and Ni catalysts.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1007/s42247-023-00598-6</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: N2 sorption, H2-TPR, TPD, XRD, TEM, N2O-pulse chemisorption, FTIR, TGA</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: wet impregnation</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication94</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication95">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.fuel.2022.126935</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Porous SiO2 nanosphere-supported PtCuCo trimetallic nanoparticles for highly efficient and selective furfural hydrogenation</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:Furfural is one of the most important lignocellulose derivatives in biomass. Its conversion to furfural alcohol (FA) is a great significance for value-added green chemicals. Here, we show that the hydrogenation of furfural over a SiO2 nanosphere-supported PtCuCo alloy catalyst (PtCuCo/SiO2), which exhibits excellent conversion to FA, up to 97.9%, with a selectivity to 95.4%. The superior activity is attributed to the formation of a PtCuCo alloy (Pt-Cu-Co sites) over the high-surface-area mesoporous silica. Structural and chemical characterizations indicate the formation of the PtCuCo alloy nanoparticles (NPs) in the catalyst is highly beneficial to the hydrogenolysis of furfural to produce intermediates, which are further hydrogenated to produce FA, with remarkable selectivity and efficiency.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1016/j.fuel.2022.126935</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication95</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication96">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/S1872-5813(23)60362-7</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Deactivation mechanism of Cu/SiO2 catalyst in gas phase hydrogenation of furfural to furfuryl alcohol 糠醛气相加氢制备糠醇 Cu/SiO2 催化剂的失活机理研究</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:The Cu/SiO2 catalysts were prepared by co-precipitation and tested for hydrogenation of furfural to furfuryl alcohol in a fixed bed reactor. The deactivation mechanism of the catalysts was investigated by characterization of H2-TPR, ICP-OES, XPS, TG, Raman and TEM. Under the conditions of atmospheric pressure, reaction temperature of 140 ℃, mass space velocity of 2.4 h-1 and the molar ratio of hydrogen to furfural of 9.7, the furfural conversion was higher than 97% in the first 5 h. However, the conversion of furfural decreased rapidly from 96% to 32% after 21 h of reaction, indicating that Cu/SiO2 catalyst was rapidly deactivated. The factors for the deactivation of Cu/SiO2 catalyst were the agglomeration and sintering of the active component copper. Moreover, the carbon deposition on the catalyst surface resulted in the covered active site Cu0</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1016/S1872-5813(23)60362-7</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: TG, TEM, ICP-OES, XPS, Raman</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: co-precipitation</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication96</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#DC_0209">
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
   <merg:mentioned_in rdf:resource="#publication10"/>
@@ -76776,6 +76882,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <obo:BFO_0000051 rdf:resource="#DC_0810"/>
   <obo:RO_0000087 rdf:resource="#DC_0206"/>
   <obo:RO_0000087 rdf:resource="#DC_0207"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbon dioxide</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
@@ -76875,29 +76982,49 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 <owl:NamedIndividual rdf:about="#DC_9200">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_34768"/>
   <merg:mentioned_in rdf:resource="#publication92"/>
-  <obo:RO_0000087 rdf:resource="#DC_0207"/>
   <merg:mentioned_in rdf:resource="#publication93"/>
+  <merg:mentioned_in rdf:resource="#publication94"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
+  <merg:mentioned_in rdf:resource="#publication96"/>
+  <obo:RO_0000087 rdf:resource="#DC_0207"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furfural</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">furfural</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_9300">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_207496"/>
-  <obo:RO_0000087 rdf:resource="#DC_0206"/>
   <merg:mentioned_in rdf:resource="#publication93"/>
+  <merg:mentioned_in rdf:resource="#publication94"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
+  <merg:mentioned_in rdf:resource="#publication96"/>
+  <obo:RO_0000087 rdf:resource="#DC_0206"/>
+  <obo:RO_0000087 rdf:resource="#DC_0207"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Furfuryl alcohol</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">furfural alcohol</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">furfuryl alcohol</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9803">
+  <rdf:type rdf:resource="#DC_9800"/>
+  <obo:RO_0000087 rdf:resource="#DC_0207"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0810"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0809"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO₂</rdfs:label>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#publication93">
+<owl:NamedIndividual rdf:about="#publication98">
   <rdf:type rdf:resource="#publication"/>
-  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.mcat.2024.114614</merg:has_doi>
-  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characterization of NiFe alloy phases in nanoparticles used as selective catalysts for the production of furfuryl alcohol from furfural hydrogenation</merg:has_title>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:It is well known that the selectivity toward different products in furfural hydrogenation can be changed when Ni catalysts are promoted with Fe. To achieve this effect, both elements must be sufficiently close to each other to allow and modify the carbonyl group adsorption mode. This condition is fulfilled if Ni and Fe are alloyed. In this study, the presence of these alloys was confirmed using Mössbauer spectroscopy at 298 and 13 K on freshly reduced catalysts, where three distinct alloy phases were identified. This result was further supported by TPR assays. This is the first report indicating that the co-impregnation preparation leads to this heterogeneity in the catalysts. To verify the effect of these Ni-Fe alloys, the selectivity and activity in furfural hydrogenation were analysed. The changes in the production of furfuryl alcohol, tetrahydrofurfuryl alcohol and furan using a Ni monometallic catalyst and three bimetallic catalysts with different Fe loadings, were observed. The amount of furfuryl alcohol obtained increased significantly with the addition of Fe.</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1016/j.mcat.2024.114614</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication93</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: co-impregnation</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: TPR, Mössbauer spectroscopy</rdfs:comment>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.sajce.2024.08.003</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The effect of zirconia as a promoter on Cu/MOF-5 catalysts for CO2 hydrogenation to methanol</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:The rise in carbon dioxide concentration is a primary anthropogenic source of severe climate change and ecological issues. Catalytic hydrogenation of CO2 into value-added chemicals and fuels including methanol is one of the attractive environmentally friendly ways to valorize carbon-containing feedstock and reduce global CO2 emissions. However, enhancing catalytic activity to achieve high methanol yield and selectivity while maintaining stability remains a major challenge. This study investigated the promotion of Cu/MOF-5 catalysts with varying loadings of ZrO₂ to determine its effects on catalytic performance in CO₂ hydrogenation. The copper loading was kept constant while the ZrO₂ content on the MOF-5 support was varied via the impregnation method. The addition of ZrO₂ was found to influence the BET surface area, suggesting the presence of amorphous ZrO₂, as its crystalline phases were not detected in x-ray diffractograms. Catalytic results demonstrated that ZrO₂ addition enhanced the catalytic activity, with increased CO₂ conversion up to 13.2 %. The results showed a correlation between catalytic performance and the reducibility of the active metal, driven by the amount of ZrO₂ present. The catalyst with the highest ZrO₂ loading exhibited the best performance, attributed to its increased surface area and enhanced reducibility. Under optimized conditions (GHSV of 1350 h⁻¹, temperature of 200 °C, and pressure of 30 bar), the catalyst achieved 100 % methanol selectivity. This study underscores the significant role of ZrO₂ as a promoter in enhancing the activity and selectivity of Cu/MOF-5 catalysts, providing critical insights into the design of efficient catalytic systems for CO₂ hydrogenation.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1016/j.sajce.2024.08.003</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication98</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: impregnation</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: x-ray diffractogram</rdfs:comment>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#publication16">
@@ -77015,6 +77142,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:support_component_of rdf:resource="#DC_2304"/>
   <merg:support_component_of rdf:resource="#DC_4100"/>
   <obo:RO_0000087 rdf:resource="#DC_0205"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbon</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon</rdfs:comment>
@@ -77049,6 +77177,15 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1007/s11705-024-2448-7</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: thermal decomposition</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication45</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication92">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3390/ijms24087547</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High-Loaded Copper-Containing Sol–Gel Catalysts for Furfural Hydroconversion</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:In this study, the high-loaded copper-containing catalysts modified with Fe and Al were successfully applied for the hydroconversion of furfural to furfuryl alcohol (FA) or 2-methylfuran (2-MF) in a batch reactor. The synthesized catalysts were studied using a set of characterization techniques to find the correlation between their activity and physicochemical properties. Fine Cu-containing particles distributed in an amorphous SiO2 matrix, which has a high surface area, provide the conversion of furfural to FA or 2-MF under exposure to high pressure of hydrogen. The modification of the mono-copper catalyst with Fe and Al increases its activity and selectivity in the target process. The reaction temperature strongly affects the selectivity of the formed products. At a H2 pressure of 5.0 MPa, the highest selectivity toward FA (98%) and 2-MF (76%) was achieved in the case of 35Cu13Fe1Al-SiO2 at the temperature of 100 °C and 250 °C, respectively.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.3390/ijms24087547</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication92</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_2304">
@@ -77116,6 +77253,9 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication77"/>
   <merg:mentioned_in rdf:resource="#publication8"/>
   <merg:mentioned_in rdf:resource="#publication85"/>
+  <merg:mentioned_in rdf:resource="#publication94"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
+  <merg:mentioned_in rdf:resource="#publication96"/>
   <merg:support_component_of rdf:resource="#DC_0603"/>
   <merg:support_component_of rdf:resource="#DC_0604"/>
   <merg:support_component_of rdf:resource="#DC_0605"/>
@@ -77150,9 +77290,14 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:support_component_of rdf:resource="#DC_6102"/>
   <merg:support_component_of rdf:resource="#DC_6104"/>
   <merg:support_component_of rdf:resource="#DC_8500"/>
+  <merg:support_component_of rdf:resource="#DC_9401"/>
+  <merg:support_component_of rdf:resource="#DC_9402"/>
+  <merg:support_component_of rdf:resource="#DC_9501"/>
+  <merg:support_component_of rdf:resource="#DC_9502"/>
   <merg:supported_on rdf:resource="#DC_0202"/>
   <obo:RO_0000087 rdf:resource="#DC_0205"/>
   <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C-SiO2</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silica</rdfs:comment>
@@ -77479,6 +77624,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
   <merg:mentioned_in rdf:resource="#publication58"/>
   <merg:mentioned_in rdf:resource="#publication63"/>
+  <merg:mentioned_in rdf:resource="#publication96"/>
   <obo:RO_0000087 rdf:resource="#DC_0208"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu/SiO2 catalyst</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
@@ -77528,6 +77674,40 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultrafine Rh nanoparticle loaded on silica nanosphere</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultrafine Rh nanoparticle supported on supported on silica nanosphere</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9401">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication94"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu/C-SiO2 catalyst</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu supported on C-SiO2 catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9402">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication94"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu supported on C-SiO2</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9501">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SiO2 nanosphere-supported PtCuCo alloy catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9502">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PtCuCo/SiO2)</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PtCuCo supported on SiO2)</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_0208">
@@ -77582,6 +77762,9 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:catalytic_component_of rdf:resource="#DC_7702"/>
   <merg:catalytic_component_of rdf:resource="#DC_8400"/>
   <merg:catalytic_component_of rdf:resource="#DC_8703"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9302"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9305"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9403"/>
   <merg:mentioned_in rdf:resource="#publication13"/>
   <merg:mentioned_in rdf:resource="#publication16"/>
   <merg:mentioned_in rdf:resource="#publication17"/>
@@ -77606,6 +77789,8 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication8"/>
   <merg:mentioned_in rdf:resource="#publication84"/>
   <merg:mentioned_in rdf:resource="#publication87"/>
+  <merg:mentioned_in rdf:resource="#publication93"/>
+  <merg:mentioned_in rdf:resource="#publication94"/>
   <merg:supported_on rdf:resource="#DC_0202"/>
   <merg:supported_on rdf:resource="#DC_0807"/>
   <merg:supported_on rdf:resource="#DC_0808"/>
@@ -77615,9 +77800,6 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:supported_on rdf:resource="#DC_1902"/>
   <merg:supported_on rdf:resource="#DC_8305"/>
   <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <merg:catalytic_component_of rdf:resource="#DC_9302"/>
-  <merg:catalytic_component_of rdf:resource="#DC_9305"/>
-  <merg:mentioned_in rdf:resource="#publication93"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni/SiO2-HS</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
@@ -77775,6 +77957,30 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transition-metal catalyst (Ni, Co, Rh, Ru, Pd, and Pt)</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#DC_9302">
+  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28112"/>
+  <merg:mentioned_in rdf:resource="#publication93"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni catalyst are promoted with Fe</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9305">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication93"/>
+  <obo:RO_0000087 rdf:resource="#DC_9309"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni monometallic catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9403">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication94"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co and Ni catalyst</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#DC_0807">
   <rdf:type rdf:resource="#DC_0801"/>
   <merg:mentioned_in rdf:resource="#publication8"/>
@@ -77852,22 +78058,6 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">praseodymium atom</rdfs:label>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#DC_9302">
-  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28112"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <merg:mentioned_in rdf:resource="#publication93"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni catalyst are promoted with Fe</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_9305">
-  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
-  <obo:RO_0000087 rdf:resource="#DC_9309"/>
-  <merg:mentioned_in rdf:resource="#publication93"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni monometallic catalyst</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#DC_1708">
   <rdf:type rdf:resource="#DC_1703"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
@@ -77910,6 +78100,12 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">) catalyst role</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#DC_9309">
+  <rdf:type rdf:resource="#DC_8401"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monometallic catalyst role</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#DC_0600">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33336"/>
   <merg:catalytic_component_of rdf:resource="#DC_0604"/>
@@ -77945,6 +78141,8 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication83"/>
   <merg:mentioned_in rdf:resource="#publication88"/>
   <merg:mentioned_in rdf:resource="#publication92"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen atom</rdfs:label>
@@ -78004,15 +78202,6 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1134/S0965544123090025</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: temperature-programmed ammonia desorption</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication54</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#publication92">
-  <rdf:type rdf:resource="#publication"/>
-  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3390/ijms24087547</merg:has_doi>
-  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">High-Loaded Copper-Containing Sol–Gel Catalysts for Furfural Hydroconversion</merg:has_title>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:In this study, the high-loaded copper-containing catalysts modified with Fe and Al were successfully applied for the hydroconversion of furfural to furfuryl alcohol (FA) or 2-methylfuran (2-MF) in a batch reactor. The synthesized catalysts were studied using a set of characterization techniques to find the correlation between their activity and physicochemical properties. Fine Cu-containing particles distributed in an amorphous SiO2 matrix, which has a high surface area, provide the conversion of furfural to FA or 2-MF under exposure to high pressure of hydrogen. The modification of the mono-copper catalyst with Fe and Al increases its activity and selectivity in the target process. The reaction temperature strongly affects the selectivity of the formed products. At a H2 pressure of 5.0 MPa, the highest selectivity toward FA (98%) and 2-MF (76%) was achieved in the case of 35Cu13Fe1Al-SiO2 at the temperature of 100 °C and 250 °C, respectively.</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.3390/ijms24087547</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication92</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_5406">
@@ -78192,6 +78381,9 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:catalytic_component_of rdf:resource="#DC_5806"/>
   <merg:catalytic_component_of rdf:resource="#DC_9202"/>
   <merg:catalytic_component_of rdf:resource="#DC_9206"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9401"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9402"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9704"/>
   <merg:mentioned_in rdf:resource="#publication10"/>
   <merg:mentioned_in rdf:resource="#publication41"/>
   <merg:mentioned_in rdf:resource="#publication44"/>
@@ -78208,10 +78400,16 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication68"/>
   <merg:mentioned_in rdf:resource="#publication70"/>
   <merg:mentioned_in rdf:resource="#publication92"/>
+  <merg:mentioned_in rdf:resource="#publication94"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
+  <merg:mentioned_in rdf:resource="#publication96"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
   <merg:support_component_of rdf:resource="#DC_7006"/>
   <merg:supported_on rdf:resource="#DC_0202"/>
   <obo:RO_0000087 rdf:resource="#DC_0205"/>
   <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9802"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copper</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
@@ -78273,12 +78471,30 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mono-copper catalyst with Fe and Al</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#DC_9704">
+  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28694"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu1Co4 supported on ZrO2-5 catalyst</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu:Co = 1:4, 5 mol% ZrO2</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#DC_7006">
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
   <merg:mentioned_in rdf:resource="#publication70"/>
   <obo:RO_0000087 rdf:resource="#DC_7010"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-based monatomic alloy catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9802">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu supported on MOF-5 catalyst</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu/MOF-5 catalyst</rdfs:comment>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_9209">
@@ -78490,13 +78706,20 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication46"/>
   <merg:mentioned_in rdf:resource="#publication62"/>
   <merg:mentioned_in rdf:resource="#publication72"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
   <merg:support_component_of rdf:resource="#DC_4605"/>
+  <merg:support_component_of rdf:resource="#DC_9703"/>
+  <merg:support_component_of rdf:resource="#DC_9704"/>
+  <merg:support_component_of rdf:resource="#DC_9705"/>
+  <merg:support_component_of rdf:resource="#DC_9707"/>
   <obo:BFO_0000051 rdf:resource="#DC_0809"/>
   <obo:BFO_0000051 rdf:resource="#DC_3810"/>
   <obo:RO_0000087 rdf:resource="#DC_0205"/>
   <obo:RO_0000087 rdf:resource="#DC_0208"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K-ZrO2</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-10</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-5</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dioxozirconium</rdfs:label>
 </owl:NamedIndividual>
@@ -78517,6 +78740,31 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K-ZrO2 interface</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#DC_9703">
+  <rdf:type rdf:resource="#DC_4206"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-10 mol% ZrO2</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9705">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-free counterpart</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9707">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co1Fe4@ZrO2-10</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co1Fe4 supported on ZrO2-10</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#DC_3810">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33342"/>
   <merg:mentioned_in rdf:resource="#publication38"/>
@@ -78525,6 +78773,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication62"/>
   <merg:mentioned_in rdf:resource="#publication72"/>
   <merg:mentioned_in rdf:resource="#publication81"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
   <obo:RO_0000087 rdf:resource="#DC_0208"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zr</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
@@ -78569,6 +78818,9 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:catalytic_component_of rdf:resource="#DC_6205"/>
   <merg:catalytic_component_of rdf:resource="#DC_9202"/>
   <merg:catalytic_component_of rdf:resource="#DC_9206"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9302"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9306"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9702"/>
   <merg:mentioned_in rdf:resource="#publication11"/>
   <merg:mentioned_in rdf:resource="#publication26"/>
   <merg:mentioned_in rdf:resource="#publication44"/>
@@ -78578,10 +78830,9 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication64"/>
   <merg:mentioned_in rdf:resource="#publication74"/>
   <merg:mentioned_in rdf:resource="#publication92"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <merg:catalytic_component_of rdf:resource="#DC_9302"/>
-  <merg:catalytic_component_of rdf:resource="#DC_9306"/>
   <merg:mentioned_in rdf:resource="#publication93"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iron</rdfs:comment>
@@ -78622,10 +78873,18 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 
 <owl:NamedIndividual rdf:about="#DC_9306">
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
   <merg:mentioned_in rdf:resource="#publication93"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe.</rdfs:label>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fe.</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9702">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co-Fe m-FTS</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_6207">
@@ -78826,6 +79085,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication14"/>
   <merg:mentioned_in rdf:resource="#publication84"/>
   <merg:mentioned_in rdf:resource="#publication87"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
   <merg:support_component_of rdf:resource="#DC_1410"/>
   <merg:supported_on rdf:resource="#DC_1402"/>
   <merg:supported_on rdf:resource="#DC_8305"/>
@@ -78848,6 +79108,9 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:catalytic_component_of rdf:resource="#DC_6505"/>
   <merg:catalytic_component_of rdf:resource="#DC_8009"/>
   <merg:catalytic_component_of rdf:resource="#DC_8703"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9403"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9702"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9704"/>
   <merg:mentioned_in rdf:resource="#publication16"/>
   <merg:mentioned_in rdf:resource="#publication23"/>
   <merg:mentioned_in rdf:resource="#publication26"/>
@@ -78858,6 +79121,9 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication67"/>
   <merg:mentioned_in rdf:resource="#publication80"/>
   <merg:mentioned_in rdf:resource="#publication87"/>
+  <merg:mentioned_in rdf:resource="#publication94"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
   <merg:supported_on rdf:resource="#DC_0202"/>
   <merg:supported_on rdf:resource="#DC_0810"/>
   <obo:RO_0000087 rdf:resource="#DC_0208"/>
@@ -79877,6 +80143,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
   <merg:mentioned_in rdf:resource="#publication44"/>
   <merg:mentioned_in rdf:resource="#publication46"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">higher alcohol</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HA</rdfs:label>
@@ -80101,6 +80368,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication87"/>
   <obo:RO_0000087 rdf:resource="#DC_0206"/>
   <obo:RO_0000087 rdf:resource="#DC_0207"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CH3OH</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methanol</rdfs:label>
@@ -80220,6 +80488,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 <owl:NamedIndividual rdf:about="#DC_5200">
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
   <merg:mentioned_in rdf:resource="#publication52"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biomass</rdfs:label>
 </owl:NamedIndividual>
@@ -81155,6 +81424,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 <owl:NamedIndividual rdf:about="#DC_7406">
   <rdf:type rdf:resource="#DC_7405"/>
   <merg:mentioned_in rdf:resource="#publication74"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogenolysis</rdfs:label>
 </owl:NamedIndividual>
@@ -81440,7 +81710,9 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 <owl:NamedIndividual rdf:about="#DC_9201">
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
   <merg:mentioned_in rdf:resource="#publication92"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">furfural alcohol</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">furfuryl alcohol</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FA</rdfs:label>
 </owl:NamedIndividual>
@@ -81472,6 +81744,116 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <obo:BFO_0000051 rdf:resource="#DC_3413"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu13Fe1Al-SiO2</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9301">
+  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_137944"/>
+  <merg:mentioned_in rdf:resource="#publication93"/>
+  <obo:RO_0000087 rdf:resource="#DC_0206"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetrahydrofurfuryl alcohol</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9304">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication93"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni-Fe alloy</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NiFe alloy</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9307">
+  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35559"/>
+  <merg:mentioned_in rdf:resource="#publication93"/>
+  <obo:RO_0000087 rdf:resource="#DC_0206"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">furan</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9308">
+  <rdf:type rdf:resource="#DC_9303"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9304"/>
+  <merg:mentioned_in rdf:resource="#publication93"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0203"/>
+  <obo:BFO_0000051 rdf:resource="#DC_1101"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NiFe</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iron;nickel</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9400">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication94"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">non-noble metal catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9503">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PtCuCo alloy</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9504">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PtCuCo alloy nanoparticle</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9505">
+  <rdf:type rdf:resource="#DC_9500"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9501"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9502"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9503"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9504"/>
+  <merg:mentioned_in rdf:resource="#publication95"/>
+  <merg:supported_on rdf:resource="#DC_0202"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_1416"/>
+  <obo:BFO_0000051 rdf:resource="#DC_1600"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PtCuCo</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9708">
+  <rdf:type rdf:resource="#DC_9700"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_1600"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoCu</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cobalt;copper</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9709">
+  <rdf:type rdf:resource="#DC_9706"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9707"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <merg:supported_on rdf:resource="#DC_4207"/>
+  <obo:BFO_0000051 rdf:resource="#DC_1101"/>
+  <obo:BFO_0000051 rdf:resource="#DC_1600"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co1Fe4</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cobalt;iron</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9710">
+  <rdf:type rdf:resource="#Cu1Co4"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <merg:supported_on rdf:resource="#DC_4207"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_1600"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu1Co4</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#publication1">
@@ -81663,55 +82045,21 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication91</rdfs:label>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#DC_9301">
-  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_137944"/>
-  <obo:RO_0000087 rdf:resource="#DC_0206"/>
-  <merg:mentioned_in rdf:resource="#publication93"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tetrahydrofurfuryl alcohol</rdfs:label>
+<owl:NamedIndividual rdf:about="#DC_9804">
+  <rdf:type rdf:resource="#DC_9801"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9802"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOF-5</rdfs:label>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#DC_9304">
-  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <merg:mentioned_in rdf:resource="#publication93"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NiFe alloy</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ni-Fe alloy</rdfs:comment>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_9309">
-  <rdf:type rdf:resource="#DC_8401"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monometallic catalyst role</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_9307">
-  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35559"/>
-  <obo:RO_0000087 rdf:resource="#DC_0206"/>
-  <merg:mentioned_in rdf:resource="#publication93"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">furan</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_9308">
-  <rdf:type rdf:resource="#DC_9303"/>
-  <merg:catalytic_component_of rdf:resource="#DC_9304"/>
-  <merg:mentioned_in rdf:resource="#publication93"/>
-  <obo:BFO_0000051 rdf:resource="#DC_0203"/>
-  <obo:BFO_0000051 rdf:resource="#DC_1101"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iron;nickel</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NiFe</rdfs:comment>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#publication94">
+<owl:NamedIndividual rdf:about="#publication99">
   <rdf:type rdf:resource="#publication"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication94</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1007/s42247-023-00598-6</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:Furfuryl alcohol is an interesting biomass-derived platform compound that is widely used and utilized as chemical intermediate in the polymer industry. Herein, the present work is aimed to produce furfuryl alcohol from hydrogenation of furfural over non-noble metal catalysts at atmospheric pressure in a continuous process. Rice husk derived (SiO2, C, and C-SiO2) supported copper-based catalysts were prepared by the wet impregnation method and have been used for the first time. In particular, the Cu/C-SiO2 catalyst used in this study showed optimal catalytic performance in the production of furfuryl alcohol (&gt; 98% selectivity), which was illustrated to positively associate with the higher dispersion and large number of Cu active sites and weak metal-support interaction. The prepared catalysts are characterized by various experiments techniques such as H2-TPR, TPD, N2O-pulse chemisorptions, FTIR, TGA, TEM, XRD, and N2 sorption characterization. The hydrogenation of furfural was investigated with different metals, such as Cu, Co, and Ni, and reveals that Cu supported on C-SiO2 showed higher furfuryl alcohol yields then Co and Ni catalysts.</rdfs:comment>
-  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1007/s42247-023-00598-6</merg:has_doi>
-  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Efficient selective synthesis of furfuryl alcohol from furfural over non-noble metal supported on bio-waste rice husk-derived carbon, silica, and carbon silica catalysts</merg:has_title>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication99</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.3969/j.issn.1001-9731.2024.09.011</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:Cu/ZnO/ZrO2 catalysts doped with different contents of La were prepared by the co-precipitation method and experimentally investigated with respect to the synthesis of methanol by CO2 hydrogenation. The advantages of La for Cu/ZnO/ZrO2 catalysts were investigated by XRD, N2 physisorption, N2O chemisorption, XPS, H2-TPR, and CO2-TPD, and the effects of different contents of La were investigated. The effects of the incorporation of different dopant amounts (0%-10%) of La on the average particle size, aggregation state, and the interaction of the elements of Cu were discussed in detail. The experiments showed that the specific surface area and dispersion of the Cu/ZnO/ZrO2 catalysts were significantly increased by the doped La, and the number of basic sites was significantly increased compared with that of the unmodified catalysts with an obvious advantage of methanol selectivity. The doping of La promoted the Cu-ZnO interactions and enhanced the catalytic performance. The appropriate La content is favorable to the catalytic performance of the Cu/ZnO/ZrO2 catalysts, and the highest spatial and temporal yield of CH3OH reached 0.35(g(MeOH)/g(cat)·h) at 240 ℃ and 3 MPa with 5% La content.</rdfs:comment>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3969/j.issn.1001-9731.2024.09.011</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Study on the performance of CO2 hydrogenation to methanol on La-Cu/ZnO/ZrO2 catalysts La-Cu/ZnO/ZrO2 催化剂上 CO2 加氢合成甲醇性能研究</merg:has_title>
 </owl:NamedIndividual>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000134">
@@ -81725,19 +82073,19 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 </rdf:Description>
 
 <rdf:Description>
-  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-</rdf:Description>
-
-<rdf:Description>
-  <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
-</rdf:Description>
-
-<rdf:Description>
   <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
 </rdf:Description>
 
 <rdf:Description>
   <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+</rdf:Description>
+
+<rdf:Description>
+  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+</rdf:Description>
+
+<rdf:Description>
+  <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
 </rdf:Description>
 
 <owl:Axiom>
