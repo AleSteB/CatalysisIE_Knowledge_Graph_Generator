@@ -66730,12 +66730,169 @@ V_G = V0_M = V_M
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic divalent group</rdfs:label>
 </owl:Class>
 
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23066">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38311"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+      <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_88188"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A class of beta-lactam antibiotics differing from the penicillins in having a 6-membered, rather than a 5-membered, side ring.  Although cephalosporins are among the most commonly used antibiotics in the treatment of routine infections, and their use is increasing over time, they can cause a range of hypersensitivity reactions, from mild, delayed-onset cutaneous reactions to life-threatening anaphylaxis in patients with immunoglobulin E (IgE)-mediated allergy.</obo:IAO_0000115>
+  <cheb:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</cheb:charge>
+  <cheb:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C7H5NO3SR2</cheb:formula>
+  <cheb:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">183.18500</cheb:mass>
+  <cheb:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">182.99901</cheb:monoisotopicmass>
+  <cheb:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H][C@]12SCC([*])=C(N1C(=O)[C@H]2[*])C(O)=O</cheb:smiles>
+  <oboI:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:3538</oboI:hasAlternativeId>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C00875</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10069359</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11936371</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12833570</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24269048</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:3320614</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:6762896</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:8426246</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Cephalosporin</oboI:hasDbXref>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cephalosporin</oboI:hasExactSynonym>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosphorin</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosphorins</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosporins</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23066</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosporin</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38311">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27171"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27933"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35627"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38106"/>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephems</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:38311</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephem</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_88188">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23888"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50904"/>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any drug which causes the onset of an allergic reaction.</obo:IAO_0000115>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allergenic drug</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:88188</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">drug allergen</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27933">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25558"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35627"/>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organonitrogen heterocyclic antibiotic that contains a beta-lactam ring.</obo:IAO_0000115>
+  <oboI:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:10427</oboI:hasAlternativeId>
+  <oboI:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:22844</oboI:hasAlternativeId>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C03438</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19254642</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22594007</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Beta-lactam_antibiotic</oboI:hasDbXref>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-Lactam antibiotics</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-lactam antibiotics</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:27933</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-lactam antibiotic</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35627">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24995"/>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lactam in which the amide bond is contained within a four-membered ring, which includes the amide nitrogen and the carbonyl carbon.</obo:IAO_0000115>
+  <cheb:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</cheb:charge>
+  <cheb:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3H2NOR3</cheb:formula>
+  <cheb:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68.054</cheb:mass>
+  <cheb:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">68.01364</cheb:monoisotopicmass>
+  <cheb:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1(C(N(*)C1*)=O)*</cheb:smiles>
+  <oboI:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:10426</oboI:hasAlternativeId>
+  <oboI:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:13203</oboI:hasAlternativeId>
+  <oboI:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:22845</oboI:hasAlternativeId>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C01866</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Beta-lactam</oboI:hasDbXref>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-Lactam</oboI:hasExactSynonym>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a beta-lactam</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-lactams</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:35627</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-lactam</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38106">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic organosulfur compounds</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organosulfur heterocyclic compounds</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:38106</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organosulfur heterocyclic compound</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33672">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33636"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bicyclic compound in which at least one of the rings contains at least one skeletal heteroatom.</obo:IAO_0000115>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterobicyclic compounds</oboI:hasExactSynonym>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33672</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterobicyclic compound</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25558">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24531"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen heterocyclic antibiotics</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25558</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen heterocyclic antibiotic</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24995">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23443"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cyclic amides of amino carboxylic acids, having a 1-azacycloalkan-2-one structure, or analogues having unsaturation or heteroatoms replacing one or more carbon atoms of the ring.</obo:IAO_0000115>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactam</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactams</oboI:hasExactSynonym>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laktam</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laktame</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactams</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24995</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactam</rdfs:label>
+</owl:Class>
+
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23232">
   <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38443"/>
   <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
   <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
   <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23232</oboI:id>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromenes</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23443">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32988"/>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <oboI:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:3990</oboI:hasAlternativeId>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic amide</oboI:hasExactSynonym>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic amides</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23443</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic amide</rdfs:label>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23774">
@@ -66978,6 +67135,20 @@ V_G = V0_M = V_M
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ligase inhibitors</oboI:hasRelatedSynonym>
   <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:75603</oboI:id>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EC 6.* (ligase) inhibitor</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24531">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+      <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33281"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#1_STAR"/>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24531</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic antibiotic</rdfs:label>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33595">
@@ -67504,17 +67675,6 @@ V_G = V0_M = V_M
   <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:26216</oboI:id>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potassium atom</rdfs:label>
-</owl:Class>
-
-<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33672">
-  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33636"/>
-  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
-  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
-  <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bicyclic compound in which at least one of the rings contains at least one skeletal heteroatom.</obo:IAO_0000115>
-  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterobicyclic compounds</oboI:hasExactSynonym>
-  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
-  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33672</oboI:id>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterobicyclic compound</rdfs:label>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26519">
@@ -69132,6 +69292,7 @@ V_G = V0_M = V_M
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cuivre</oboI:hasRelatedSynonym>
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cuprum</oboI:hasRelatedSynonym>
   <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:28694</oboI:id>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Copper</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copper</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copper atom</rdfs:label>
@@ -70008,6 +70169,7 @@ V_G = V0_M = V_M
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen atom</oboI:hasRelatedSynonym>
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen radical</oboI:hasRelatedSynonym>
   <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:29351</oboI:id>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">N</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen(.)</rdfs:label>
 </owl:Class>
 
@@ -70975,6 +71137,7 @@ V_G = V0_M = V_M
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indium</oboI:hasRelatedSynonym>
   <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:30430</oboI:id>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indium</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indium atom</rdfs:label>
 </owl:Class>
 
@@ -72202,6 +72365,147 @@ V_G = V0_M = V_M
   <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatoxicant</oboI:hasRelatedSynonym>
   <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:50908</oboI:id>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatotoxic agent</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3489">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23066"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+      <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36047"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chebi#is_conjugate_acid_of"/>
+      <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52439"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A second-generation cephalosporin antibiotic having N(1)-methyltetrazol-5-ylthiomethyl, {[(cyanomethyl)sulfanyl]acetyl}amino and methoxy side-groups at positions 3, 7beta and 7alpha respectively of the parent cephem bicyclic structure.</obo:IAO_0000115>
+  <cheb:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</cheb:charge>
+  <cheb:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C15H17N7O5S3</cheb:formula>
+  <cheb:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C15H17N7O5S3/c1-21-14(18-19-20-21)30-6-8-5-29-13-15(27-2,17-9(23)7-28-4-3-16)12(26)22(13)10(8)11(24)25/h13H,4-7H2,1-2H3,(H,17,23)(H,24,25)/t13-,15+/m1/s1</cheb:inchi>
+  <cheb:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNBUBQHDYVFSQF-HIFRSBDPSA-N</cheb:inchikey>
+  <cheb:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">471.53400</cheb:mass>
+  <cheb:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">471.04533</cheb:monoisotopicmass>
+  <cheb:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H][C@]12SCC(CSc3nnnn3C)=C(N1C(=O)[C@]2(NC(=O)CSCC#N)OC)C(O)=O</cheb:smiles>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:5406306</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:56796-20-4</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank:DB00274</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug_Central:539</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C08103</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D00910</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LINCS:LSM-5594</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10109799</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23140947</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23705013</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:2416589</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:29017833</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:8452349</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Cefmetazole</oboI:hasDbXref>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7beta-{[(cyanomethyl)sulfanyl]acetamido}-7alpha-methoxy-3-{[(1-methyl-1H-tetrazol-5-yl)sulfanyl]methyl}ceph-3-em-4-carboxylic acid</oboI:hasExactSynonym>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(6R,7S)-7-({[(cyanomethyl)sulfanyl]acetyl}amino)-7-methoxy-3-{[(1-methyl-1H-tetrazol-5-yl)sulfanyl]methyl}-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cefmetazole</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cefmetazolo</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cefmetazolum</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:3489</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cefmetazole</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36047">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33282"/>
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36043"/>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A drug used to treat or prevent bacterial infections.</obo:IAO_0000115>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wikipedia:Antibacterial</oboI:hasDbXref>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibacterial drugs</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36047</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibacterial drug</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52439">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52440"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/chebi#is_conjugate_base_of"/>
+      <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <cheb:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">-1</cheb:charge>
+  <cheb:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C15H16N7O5S3</cheb:formula>
+  <cheb:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C15H17N7O5S3/c1-21-14(18-19-20-21)30-6-8-5-29-13-15(27-2,17-9(23)7-28-4-3-16)12(26)22(13)10(8)11(24)25/h13H,4-7H2,1-2H3,(H,17,23)(H,24,25)/p-1/t13-,15+/m1/s1</cheb:inchi>
+  <cheb:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNBUBQHDYVFSQF-HIFRSBDPSA-M</cheb:inchikey>
+  <cheb:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">470.52600</cheb:mass>
+  <cheb:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">470.03805</cheb:monoisotopicmass>
+  <cheb:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[H][C@]12SCC(CSc3nnnn3C)=C(N1C(=O)[C@]2(NC(=O)CSCC#N)OC)C([O-])=O</cheb:smiles>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:5406422</oboI:hasDbXref>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7beta-{[(cyanomethyl)sulfanyl]acetamido}-7alpha-methoxy-3-{[(1-methyl-1H-tetrazol-5-yl)sulfanyl]methyl}ceph-3-em-4-carboxylate</oboI:hasExactSynonym>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(6R,7S)-7-({[(cyanomethyl)sulfanyl]acetyl}amino)-7-methoxy-3-{[(1-methyl-1H-tetrazol-5-yl)sulfanyl]methyl}-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52439</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cefmetazole(1-)</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52440">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29067"/>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosporin carboxylate</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosporin carboxylates</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosporin carboxylic acid anions</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosporincarboxylate</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:52440</oboI:id>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosporin carboxylic acid anion</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_3490">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38700"/>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+      <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52439"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <rdfs:subClassOf>
+    <owl:Restriction>
+      <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+      <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33281"/>
+    </owl:Restriction>
+  </rdfs:subClassOf>
+  <oboI:inSubset rdf:resource="http://purl.obolibrary.org/obo/chebi#3_STAR"/>
+  <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic sodium salt that is the sodium salt of cefmetazole.</obo:IAO_0000115>
+  <cheb:charge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">0</cheb:charge>
+  <cheb:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C15H16N7NaO5S3</cheb:formula>
+  <cheb:formula rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C15H16N7O5S3.Na</cheb:formula>
+  <cheb:inchi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">InChI=1S/C15H17N7O5S3.Na/c1-21-14(18-19-20-21)30-6-8-5-29-13-15(27-2,17-9(23)7-28-4-3-16)12(26)22(13)10(8)11(24)25;/h13H,4-7H2,1-2H3,(H,17,23)(H,24,25);/q;+1/p-1/t13-,15+;/m1./s1</cheb:inchi>
+  <cheb:inchikey rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BITQGIOJQWZUPL-PBCQUBLHSA-M</cheb:inchikey>
+  <cheb:mass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">493.51600</cheb:mass>
+  <cheb:monoisotopicmass rdf:datatype="http://www.w3.org/2001/XMLSchema#string">493.02727</cheb:monoisotopicmass>
+  <cheb:smiles rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[Na+].[H][C@]12SCC(CSc3nnnn3C)=C(N1C(=O)[C@]2(NC(=O)CSCC#N)OC)C([O-])=O</cheb:smiles>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:5403925</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:56796-39-5</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:C08104</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:D00911</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17939016</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:6176550</oboI:hasDbXref>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:5403925</oboI:hasDbXref>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cefmetazole sodium</oboI:hasExactSynonym>
+  <oboI:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium 6beta-{[(cyanomethyl)sulfanyl]acetamido}-6alpha-methoxy-3-{[(1-methyl-1H-tetrazol-5-yl)sulfanyl]methyl}ceph-3-em-4-carboxylate</oboI:hasExactSynonym>
+  <oboI:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboI:hasOBONamespace>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMZ</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMZ sodium</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS 1170 sodium</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cefmetazon</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SKF 83088 sodium</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zefazone</oboI:hasRelatedSynonym>
+  <oboI:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cefmetazone</oboI:hasRelatedSynonym>
+  <oboI:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:3490</oboI:id>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMZ</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cefmetazole sodium</rdfs:label>
 </owl:Class>
 
 <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35500">
@@ -74754,6 +75058,19 @@ V_G = V0_M = V_M
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lanthanum(3+);oxygen(2-)</rdfs:label>
 </owl:Class>
 
+<owl:Class rdf:about="#DC_10000">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuIn</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copper;indium</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10002">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuIn0.05</rdfs:label>
+</owl:Class>
+
 <owl:Class rdf:about="#DC_1007">
   <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/process#AFP_0003711"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
@@ -74764,6 +75081,107 @@ V_G = V0_M = V_M
   <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/process#AFP_0003711"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reverse gas shift</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10101">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-MnNi</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manganese;nickel</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10103">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMNZ-0.01</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10105">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuMn</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copper;manganese</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10300">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-18h</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10400">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuZrIn5</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10500">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu3MnZn0.5Zr0.5</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10502">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu1.5Mn1.5O4</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10504">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-MnZn</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manganese;zinc</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10600">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnO-ZrO2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc;dioxido(oxo)zirconium</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10602">
+  <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doped catalyst role</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10603">
+  <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solution catalyst role</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10604">
+  <rdfs:subClassOf rdf:resource="#DC_10603"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid solution catalyst role</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10607">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuZnO-ZrO2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copper;zinc;oxygen(2-);zirconium(4+)</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10609">
+  <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 % catalyst role</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10610">
+  <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid catalyst role</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10612">
+  <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cza catalyst role</rdfs:label>
 </owl:Class>
 
 <owl:Class rdf:about="#DC_1301">
@@ -75656,10 +76074,26 @@ V_G = V0_M = V_M
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cobalt;iron</rdfs:label>
 </owl:Class>
 
+<owl:Class rdf:about="#DC_9800">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO₂</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_9801">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOF-5</rdfs:label>
+</owl:Class>
+
 <owl:Class rdf:about="#publication">
   <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically; collection of processed publications</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#05">
+  <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
 </owl:Class>
 
 <owl:Class rdf:about="#3">
@@ -75692,16 +76126,23 @@ V_G = V0_M = V_M
   <core:prefLabel rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Property shape</core:prefLabel>
 </owl:Class>
 
-<owl:Class rdf:about="#DC_9800">
+<owl:Class rdf:about="#DC_10701">
   <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO₂</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dialuminum;zinc;oxocopper;oxygen(2-)</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuO-ZnO-Al2O3</rdfs:comment>
 </owl:Class>
 
-<owl:Class rdf:about="#DC_9801">
+<owl:Class rdf:about="#DC_10703">
   <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOF-5</rdfs:label>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zeolite Socony Mobil-5</rdfs:label>
+</owl:Class>
+
+<owl:Class rdf:about="#DC_10705">
+  <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000217"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bifunctional catalyst role</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
 </owl:Class>
 
 <owl:NamedIndividual rdf:about="http://www.allotrope.org">
@@ -76149,6 +76590,8 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 <owl:NamedIndividual rdf:about="#DC_0200">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17245"/>
   <merg:mentioned_in rdf:resource="#publication10"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <merg:mentioned_in rdf:resource="#publication104"/>
   <merg:mentioned_in rdf:resource="#publication11"/>
   <merg:mentioned_in rdf:resource="#publication19"/>
   <merg:mentioned_in rdf:resource="#publication2"/>
@@ -76187,6 +76630,26 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1007/s10562-023-04527-4</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: TPR, temperature-programmed reduction, X-ray diffraction, BET, XRD</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication10</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication100">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1002/aic.18353</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In situ DRIFTS examining the impact of indium doping on activity of CuIn/ZrO2 catalyst for CO2 hydrogenation to methanol</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:We describe the synthesis of CuIn/ZrO2 catalysts via a facile mechanochemical synthesis method. In doping was demonstrated to promote the formation of strong Cu–In2O3 interactions and increase the number of Cu+ sites. The CuIn0.05/ZrO2 catalyst shows relatively high selectivity and space–time yield of methanol (~50% and ~1.25 (Formula presented.), respectively) at 300°C and 5 MPa, outperforming those of the Cu/ZrO2 catalyst (~25% and ~1.12 (Formula presented.), respectively). Time-resolved in situ DRIFTS results acquired under various reaction conditions (typically H2/D2 isotope exchange) demonstrate that the surface Cu+–bound formate was the most reactive intermediate and the subsequent hydrogenation process should be the rate-limiting step, which was positively promoted by the inclusion of In. The strong Cu–In2O3 interaction promotes a decrease in Cu0 sites, leading to a weak interaction of the Cu0-bound CO intermediates, thus facilitating further hydrogenation of these species rather than releasing CO product.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1002/aic.18353</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: DRIFTS</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication100</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication104">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1007/s10562-022-04191-0</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Investigation of In Promotion on Cu/ZrO2 Catalysts and Application in CO2 Hydrogenation to Methanol</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:Herein, we investigated the effect of indium promotion (0, 5, and 10%) on the physicochemical properties of Cu/ZrO2 catalysts, which were evaluated by several characterization techniques, and applied in the CO2 hydrogenation to methanol. The results showed that indium (In) was incorporated in the ZrO2 structure, which increased the oxygen vacancies and structural defects, increasing surface basicity and Cu relative content, leading these materials to present lower conversions but higher methanol selectivity. Mechanistic insights provided by in-situ DRIFTS analysis showed that the higher methanol selectivity of the In-promoted catalysts is also attributed to the ability of indium to take the CO2 hydrogenation mechanism through the formate intermediate as the preferential route, preventing CO formation and decreasing its selectivity. A chemometric approach was used to find the optimized temperature, pressure, and GHSV (456 K, 3 MPa, and 12 L.g−1.h−1) for CuZrIn5, leading to the higher methanol selectivity (~ 93%), with ~ 1.8% of conversion. Graphical  [Figure not available: see fulltext.]</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1007/s10562-022-04191-0</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: DRIFTS</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication104</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#publication11">
@@ -76416,6 +76879,12 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 <owl:NamedIndividual rdf:about="#DC_0201">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/MOP_0000589"/>
   <merg:mentioned_in rdf:resource="#publication10"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <merg:mentioned_in rdf:resource="#publication103"/>
+  <merg:mentioned_in rdf:resource="#publication104"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
   <merg:mentioned_in rdf:resource="#publication11"/>
   <merg:mentioned_in rdf:resource="#publication12"/>
   <merg:mentioned_in rdf:resource="#publication13"/>
@@ -76468,8 +76937,10 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication95"/>
   <merg:mentioned_in rdf:resource="#publication96"/>
   <merg:mentioned_in rdf:resource="#publication97"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
   <obo:RO_0000057 rdf:resource="#DC_0209"/>
   <obo:RO_0000057 rdf:resource="#DC_0501"/>
+  <obo:RO_0000057 rdf:resource="#DC_10501"/>
   <obo:RO_0000057 rdf:resource="#DC_1100"/>
   <obo:RO_0000057 rdf:resource="#DC_1413"/>
   <obo:RO_0000057 rdf:resource="#DC_1701"/>
@@ -76482,10 +76953,52 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <obo:RO_0000057 rdf:resource="#DC_9200"/>
   <obo:RO_0000057 rdf:resource="#DC_9300"/>
   <obo:RO_0000057 rdf:resource="#DC_9803"/>
-  <merg:mentioned_in rdf:resource="#publication98"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogenated</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hydrogenation</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication101">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1039/d3cy01753b</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Effect of Ni content on Cu-Mn/ZrO2 catalysts for methanol synthesis from CO2 hydrogenation</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:The synthesis of methanol via CO2 hydrogenation is a promising route to a carbon-neutral economy. The key to the process is catalysts. In this research, a series of Cu-Mn-Ni/ZrO2 catalysts with different Ni : Cu ratios (CMZ, CMNZ-0.01, CMNZ-0.05, CMNZ-0.1, and CMNZ-0.2) were synthesized by co-precipitation for the hydrogenation of CO2 to methanol. It was found that an appropriate Ni content led to increased Cu dispersion and surface area. Consequently, more active Cu sites were exposed, leading to higher CO2 conversion. Moreover, the addition of a small amount of Ni enhanced the basicity on the catalyst surface, effectively stabilizing intermediates such as *COOH and *OCH3, which improved the methanol selectivity. At 240 °C and 5 MPa, the CMNZ-0.01 catalyst showed better performance with a methanol selectivity of 57.84% and CO2 conversion of 14.57%, which were higher than those of the Cu-Mn/ZrO2 catalyst.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1039/d3cy01753b</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: co-precipitation</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication101</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication103">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1021/acsaem.3c01373</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Effect of Reflux Time on the Performance of the Cu/ZrO2 Catalyst for CO2 Hydrogenation to Methanol</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:The hydrogenation of CO2 into methanol was investigated by means of the Cu/ZrO2 catalyst to analyze the effect of reflux time on catalytic performance. A series of high-activity Cu/ZrO2 catalysts were prepared by introducing the support pretreated with ammonia reflux. The effect of reflux time on the structure and performance of all catalysts was systematically studied. Combined with various characterizations such as X-ray diffraction (XRD), N2 physisorption, temperature-programmed reduction by H2 (H2-TPR), temperature-programmed desorption of H2 and CO2, X-ray photoelectron spectroscopy (XPS), and transmission electron microscopy (TEM), it can be seen that the catalysts after reflux exhibited a stable amorphous structure with more medium and strong basic sites. Moreover, the proportion of defect oxygen and surface Cu+ species for Cu/ZrO2 catalysts increased, and the metal-support interaction was strengthened, which effectively increased active sites and promoted CO2 activation, and thus, the catalyst with stronger activity and better stability was obtained. The CO2 conversion dramatically increased by 4-5 times (from 5.4 to 22.1%) after reflux treatment, and the Cu/ZrO2-18h catalyst had the highest catalytic activity and a methanol space time yield of 394 gMeOH h-1 kgcat-1 at 260 °C.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1021/acsaem.3c01373</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: N2 physisorption, TEM, H2-TPR, temperature-programmed desorption of H2 and CO2, X-ray photoelectron spectroscopy, XRD, X-ray diffraction, temperature-programmed reduction by H2, XPS, transmission electron microscopy</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: reflux treatment</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication103</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication105">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.fuproc.2023.107789</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Effect of Cu and Zn on the performance of Cu-Mn-Zn/ZrO2 catalysts for CO2 hydrogenation to methanol</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:CO2 hydrogenation to methanol is an important technology for carbon utilization which not only provides a solution to the greenhouse gas mitigation but also produces value-added products. Copper-based catalyst has always been the research focus of the process. Cu1.5Mn1.5O4 spinel has become an interesting alternative because it contains more oxygen defects and highly dispersed copper species that promote the CO2 adsorption and conversion. In this paper, the effects of Cu and Zn on the performance of Cu-Mn-Zn/ZrO2 catalysts for hydrogenation of CO2 to methanol were studied. It was found that after Zn modification, the catalytic performance of the catalyst was greatly improved. Among all catalysts, Cu3MnZn0.5Zr0.5 has the best CO2 conversion (7.14%) and methanol selectivity (69.74%) at 260 °C and 5 MPa. XPS analysis showed that doped Zn replaced the position of Cu in Cu1.5Mn1.5O4 spinel, forming the ZnOx and then increasing the content of oxygen defects, which resulted in the higher methanol selectivity. The increased Cu content promoted the activation of H2 and the rate of *CO3 hydrogenation to *HCOO, which in turn increases the conversion of CO2.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1016/j.fuproc.2023.107789</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: XPS</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication105</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication106">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1098/rsos.221213</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Copper-doped ZnO-ZrO2solid solution catalysts for promoting methanol synthesis from CO2hydrogenation</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:Copper-doped ZnO-ZrO2 solid solution catalysts were synthesized via co-precipitation for promoting CH 3 OH synthesis via hydrogenation of CO2. Various testing methods were applied to investigate the effect of various copper contents on the catalysts. The catalytic performance was evaluated by a fixed bed reactor. XRD, HRTEM and Raman spectra collectively indicated that a ZnO-ZrO2 solid solution catalyst with 3% Cu had a higher Cu dispersion, while the H 2 -TPR results confirmed that a catalyst with 3% Cu had more Cu active sites under low temperature H 2 pretreatment. When the copper content increased to 5% and 10%, the catalyst showed a better Cu crystallinity and a worse Cu dispersion, which could have a negative effect. Therefore, the CO2 conversion and methanol yield with a 3% CuZnO-ZrO2 catalyst at 5 MPa, 250°C and 12 000 ml/(g h) increased by 8.6% and 7.6%, respectively. Moreover, the CH 3 OH selectivity and catalytic stability of the solid solution catalyst were better than those of the traditional CZA catalyst.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1098/rsos.221213</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: HRTEM, H 2 -TPR, Raman, XRD</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: co-precipitation</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication106</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#publication12">
@@ -76821,9 +77334,23 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication96</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#publication98">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.sajce.2024.08.003</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The effect of zirconia as a promoter on Cu/MOF-5 catalysts for CO2 hydrogenation to methanol</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:The rise in carbon dioxide concentration is a primary anthropogenic source of severe climate change and ecological issues. Catalytic hydrogenation of CO2 into value-added chemicals and fuels including methanol is one of the attractive environmentally friendly ways to valorize carbon-containing feedstock and reduce global CO2 emissions. However, enhancing catalytic activity to achieve high methanol yield and selectivity while maintaining stability remains a major challenge. This study investigated the promotion of Cu/MOF-5 catalysts with varying loadings of ZrO₂ to determine its effects on catalytic performance in CO₂ hydrogenation. The copper loading was kept constant while the ZrO₂ content on the MOF-5 support was varied via the impregnation method. The addition of ZrO₂ was found to influence the BET surface area, suggesting the presence of amorphous ZrO₂, as its crystalline phases were not detected in x-ray diffractograms. Catalytic results demonstrated that ZrO₂ addition enhanced the catalytic activity, with increased CO₂ conversion up to 13.2 %. The results showed a correlation between catalytic performance and the reducibility of the active metal, driven by the amount of ZrO₂ present. The catalyst with the highest ZrO₂ loading exhibited the best performance, attributed to its increased surface area and enhanced reducibility. Under optimized conditions (GHSV of 1350 h⁻¹, temperature of 200 °C, and pressure of 30 bar), the catalyst achieved 100 % methanol selectivity. This study underscores the significant role of ZrO₂ as a promoter in enhancing the activity and selectivity of Cu/MOF-5 catalysts, providing critical insights into the design of efficient catalytic systems for CO₂ hydrogenation.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1016/j.sajce.2024.08.003</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: x-ray diffractogram</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: impregnation</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication98</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#DC_0209">
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
   <merg:mentioned_in rdf:resource="#publication10"/>
+  <merg:mentioned_in rdf:resource="#publication103"/>
+  <merg:mentioned_in rdf:resource="#publication104"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
   <merg:mentioned_in rdf:resource="#publication12"/>
   <merg:mentioned_in rdf:resource="#publication16"/>
   <merg:mentioned_in rdf:resource="#publication19"/>
@@ -76853,6 +77380,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication88"/>
   <merg:mentioned_in rdf:resource="#publication89"/>
   <merg:mentioned_in rdf:resource="#publication90"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon dioxide</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2</rdfs:label>
@@ -76860,6 +77388,8 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 
 <owl:NamedIndividual rdf:about="#DC_0501">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16526"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
   <merg:mentioned_in rdf:resource="#publication11"/>
   <merg:mentioned_in rdf:resource="#publication13"/>
   <merg:mentioned_in rdf:resource="#publication18"/>
@@ -76879,14 +77409,21 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication85"/>
   <merg:mentioned_in rdf:resource="#publication86"/>
   <merg:mentioned_in rdf:resource="#publication87"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
   <obo:BFO_0000051 rdf:resource="#DC_0810"/>
   <obo:RO_0000087 rdf:resource="#DC_0206"/>
   <obo:RO_0000087 rdf:resource="#DC_0207"/>
-  <merg:mentioned_in rdf:resource="#publication98"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO2</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbon dioxide</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon dioxide</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10501">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*CO3</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_1100">
@@ -77008,23 +77545,23 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 
 <owl:NamedIndividual rdf:about="#DC_9803">
   <rdf:type rdf:resource="#DC_9800"/>
-  <obo:RO_0000087 rdf:resource="#DC_0207"/>
   <merg:mentioned_in rdf:resource="#publication98"/>
-  <obo:BFO_0000051 rdf:resource="#DC_0810"/>
   <obo:BFO_0000051 rdf:resource="#DC_0809"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO₂</rdfs:label>
+  <obo:BFO_0000051 rdf:resource="#DC_0810"/>
+  <obo:RO_0000087 rdf:resource="#DC_0207"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CO₂</rdfs:label>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#publication98">
+<owl:NamedIndividual rdf:about="#publication107">
   <rdf:type rdf:resource="#publication"/>
-  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.sajce.2024.08.003</merg:has_doi>
-  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The effect of zirconia as a promoter on Cu/MOF-5 catalysts for CO2 hydrogenation to methanol</merg:has_title>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:The rise in carbon dioxide concentration is a primary anthropogenic source of severe climate change and ecological issues. Catalytic hydrogenation of CO2 into value-added chemicals and fuels including methanol is one of the attractive environmentally friendly ways to valorize carbon-containing feedstock and reduce global CO2 emissions. However, enhancing catalytic activity to achieve high methanol yield and selectivity while maintaining stability remains a major challenge. This study investigated the promotion of Cu/MOF-5 catalysts with varying loadings of ZrO₂ to determine its effects on catalytic performance in CO₂ hydrogenation. The copper loading was kept constant while the ZrO₂ content on the MOF-5 support was varied via the impregnation method. The addition of ZrO₂ was found to influence the BET surface area, suggesting the presence of amorphous ZrO₂, as its crystalline phases were not detected in x-ray diffractograms. Catalytic results demonstrated that ZrO₂ addition enhanced the catalytic activity, with increased CO₂ conversion up to 13.2 %. The results showed a correlation between catalytic performance and the reducibility of the active metal, driven by the amount of ZrO₂ present. The catalyst with the highest ZrO₂ loading exhibited the best performance, attributed to its increased surface area and enhanced reducibility. Under optimized conditions (GHSV of 1350 h⁻¹, temperature of 200 °C, and pressure of 30 bar), the catalyst achieved 100 % methanol selectivity. This study underscores the significant role of ZrO₂ as a promoter in enhancing the activity and selectivity of Cu/MOF-5 catalysts, providing critical insights into the design of efficient catalytic systems for CO₂ hydrogenation.</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1016/j.sajce.2024.08.003</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication98</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: impregnation</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: x-ray diffractogram</rdfs:comment>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1088/1361-6528/acc036</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultra-thin ZrO2 overcoating on CuO-ZnO-Al2O3 catalyst by atomic layer deposition for improved catalytic performance of CO2 hydrogenation to dimethyl ether</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:An ultra-thin overcoating of zirconium oxide (ZrO2) film on CuO-ZnO-Al2O3 (CZA) catalysts by atomic layer deposition (ALD) was proved to enhance the catalytic performance of CZA/HZSM-5 (H form of Zeolite Socony Mobil-5) bifunctional catalysts for hydrogenation of CO2 to dimethyl ether (DME). Under optimal reaction conditions (i.e. 240 °C and 2.8 MPa), the yield of product DME increased from 17.22% for the bare CZA/HZSM-5 catalysts, to 18.40% for the CZA catalyst after 5 cycles of ZrO2 ALD with HZSM-5 catalyst. All the catalysts modified by ZrO2 ALD displayed significantly improved catalytic stability of hydrogenation of CO2 to DME reaction, compared to that of CZA/HZSM-5 bifunctional catalysts. The loss of DME yield in 100 h of reaction was greatly mitigated from 6.20% (loss of absolute value) to 3.01% for the CZA catalyst with 20 cycles of ZrO2 ALD overcoating. Characterizations including hydrogen temperature programmed reduction, x-ray powder diffraction, and x-ray photoelectron spectroscopy revealed that there was strong interaction between Cu active centers and ZrO2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1088/1361-6528/acc036</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication107</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: ALD, ZrO2 ALD, atomic layer deposition</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: x-ray powder diffraction, x-ray photoelectron spectroscopy, hydrogen temperature programmed reduction</rdfs:comment>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#publication16">
@@ -77139,10 +77676,10 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication69"/>
   <merg:mentioned_in rdf:resource="#publication8"/>
   <merg:mentioned_in rdf:resource="#publication87"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
   <merg:support_component_of rdf:resource="#DC_2304"/>
   <merg:support_component_of rdf:resource="#DC_4100"/>
   <obo:RO_0000087 rdf:resource="#DC_0205"/>
-  <merg:mentioned_in rdf:resource="#publication98"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Carbon</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon</rdfs:comment>
@@ -77188,6 +77725,38 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication92</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#DC_0809">
+  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25805"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <merg:mentioned_in rdf:resource="#publication103"/>
+  <merg:mentioned_in rdf:resource="#publication104"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
+  <merg:mentioned_in rdf:resource="#publication34"/>
+  <merg:mentioned_in rdf:resource="#publication38"/>
+  <merg:mentioned_in rdf:resource="#publication42"/>
+  <merg:mentioned_in rdf:resource="#publication45"/>
+  <merg:mentioned_in rdf:resource="#publication46"/>
+  <merg:mentioned_in rdf:resource="#publication54"/>
+  <merg:mentioned_in rdf:resource="#publication59"/>
+  <merg:mentioned_in rdf:resource="#publication62"/>
+  <merg:mentioned_in rdf:resource="#publication69"/>
+  <merg:mentioned_in rdf:resource="#publication72"/>
+  <merg:mentioned_in rdf:resource="#publication74"/>
+  <merg:mentioned_in rdf:resource="#publication8"/>
+  <merg:mentioned_in rdf:resource="#publication81"/>
+  <merg:mentioned_in rdf:resource="#publication83"/>
+  <merg:mentioned_in rdf:resource="#publication88"/>
+  <merg:mentioned_in rdf:resource="#publication92"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen atom</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#DC_2304">
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
   <merg:mentioned_in rdf:resource="#publication23"/>
@@ -77209,6 +77778,25 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/role#AFRL_0000085"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">support role</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication54">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1134/S0965544123090025</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrogenation of СО2 into Hydrocarbons on Bifunctional Catalysts</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:Direct synthesis of liquid hydrocarbons from СО2 and Н2 on a combined bifunctional catalyst consisting of ZnAlOx or ZnCrOx (oxide catalysts for the synthesis of hydrocarbons from СО and Н2) and HZSM-5 zeolites with different SiO2/Al2O3 molar ratios was studied. The physicochemical characteristics of the zeolites, namely, acidity evaluated by temperature-programmed ammonia desorption, porosity, and specific surface area, were examined. The catalyst performance was studied on a micro-pilot installation in the flow recirculation mode at 340°С and a pressure of 10 MPa. The ZnAlOx/ZnZSM-5(40) catalyst exhibits the highest selectivity to С5+ hydrocarbons, which is associated with the presence of strong Brønsted acid sites on its surface.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1134/S0965544123090025</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: temperature-programmed ammonia desorption</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication54</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication62">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1002/cctc.202300572</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Development and Up-scaling of Iron-based Catalysts for Fischer-Tropsch Synthesis of Higher Alcohols</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:For sustainable production of chemicals like hydrocarbons and oxygenates from renewable carbon sources and electricity Fischer-Tropsch synthesis is focused in current research. Aiming for this purpose, the development of supported powdered and shaped catalysts for low-temperature Fischer-Tropsch synthesis of value-added higher alcohols was addressed in this study. Promising support materials like α-Al2O3, SiO2, ZrO2 and SiC were assessed and the influence of electrochemical promoters on product formation was investigated. The results show an outstanding promoting effect of lithium on conversion and alcohol selectivity. A beneficial synergistic effect occurred for the combination of 1 % Li and Cu each and could be exploited both for supported powdered and shaped catalysts. Furthermore, effects of surface, shape, porosity and Fe content on pellet catalysts were investigated. Exploiting the beneficial effects found, the first monometallic shaped Fe-based catalyst – outperforming the state-of-the-art monometallic Fe powder catalysts in conversion and selectivity – is presented.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1002/cctc.202300572</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication62</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_0202">
@@ -77374,15 +77962,6 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: X-ray absorption near-edge structure, extended X-ray absorption fine structure, XANES, EXAFS, XPS, X-ray photoelectron spectroscopy</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">treatment: co-precipitation method</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication60</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#publication62">
-  <rdf:type rdf:resource="#publication"/>
-  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1002/cctc.202300572</merg:has_doi>
-  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Development and Up-scaling of Iron-based Catalysts for Fischer-Tropsch Synthesis of Higher Alcohols</merg:has_title>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:For sustainable production of chemicals like hydrocarbons and oxygenates from renewable carbon sources and electricity Fischer-Tropsch synthesis is focused in current research. Aiming for this purpose, the development of supported powdered and shaped catalysts for low-temperature Fischer-Tropsch synthesis of value-added higher alcohols was addressed in this study. Promising support materials like α-Al2O3, SiO2, ZrO2 and SiC were assessed and the influence of electrochemical promoters on product formation was investigated. The results show an outstanding promoting effect of lithium on conversion and alcohol selectivity. A beneficial synergistic effect occurred for the combination of 1 % Li and Cu each and could be exploited both for supported powdered and shaped catalysts. Furthermore, effects of surface, shape, porosity and Fe content on pellet catalysts were investigated. Exploiting the beneficial effects found, the first monometallic shaped Fe-based catalyst – outperforming the state-of-the-art monometallic Fe powder catalysts in conversion and selectivity – is presented.</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1002/cctc.202300572</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication62</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_0603">
@@ -77765,6 +78344,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:catalytic_component_of rdf:resource="#DC_9302"/>
   <merg:catalytic_component_of rdf:resource="#DC_9305"/>
   <merg:catalytic_component_of rdf:resource="#DC_9403"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
   <merg:mentioned_in rdf:resource="#publication13"/>
   <merg:mentioned_in rdf:resource="#publication16"/>
   <merg:mentioned_in rdf:resource="#publication17"/>
@@ -78123,31 +78703,6 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lanthanum atom</rdfs:label>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#DC_0809">
-  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25805"/>
-  <merg:mentioned_in rdf:resource="#publication34"/>
-  <merg:mentioned_in rdf:resource="#publication38"/>
-  <merg:mentioned_in rdf:resource="#publication42"/>
-  <merg:mentioned_in rdf:resource="#publication45"/>
-  <merg:mentioned_in rdf:resource="#publication46"/>
-  <merg:mentioned_in rdf:resource="#publication54"/>
-  <merg:mentioned_in rdf:resource="#publication59"/>
-  <merg:mentioned_in rdf:resource="#publication62"/>
-  <merg:mentioned_in rdf:resource="#publication69"/>
-  <merg:mentioned_in rdf:resource="#publication72"/>
-  <merg:mentioned_in rdf:resource="#publication74"/>
-  <merg:mentioned_in rdf:resource="#publication8"/>
-  <merg:mentioned_in rdf:resource="#publication81"/>
-  <merg:mentioned_in rdf:resource="#publication83"/>
-  <merg:mentioned_in rdf:resource="#publication88"/>
-  <merg:mentioned_in rdf:resource="#publication92"/>
-  <merg:mentioned_in rdf:resource="#publication97"/>
-  <merg:mentioned_in rdf:resource="#publication98"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">O</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen atom</rdfs:label>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#DC_0806">
   <rdf:type rdf:resource="#DC_0802"/>
   <merg:mentioned_in rdf:resource="#publication8"/>
@@ -78192,16 +78747,6 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <obo:RO_0000087 rdf:resource="#DC_0208"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnesium in Sep</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#publication54">
-  <rdf:type rdf:resource="#publication"/>
-  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1134/S0965544123090025</merg:has_doi>
-  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hydrogenation of СО2 into Hydrocarbons on Bifunctional Catalysts</merg:has_title>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:Direct synthesis of liquid hydrocarbons from СО2 and Н2 on a combined bifunctional catalyst consisting of ZnAlOx or ZnCrOx (oxide catalysts for the synthesis of hydrocarbons from СО and Н2) and HZSM-5 zeolites with different SiO2/Al2O3 molar ratios was studied. The physicochemical characteristics of the zeolites, namely, acidity evaluated by temperature-programmed ammonia desorption, porosity, and specific surface area, were examined. The catalyst performance was studied on a micro-pilot installation in the flow recirculation mode at 340°С and a pressure of 10 MPa. The ZnAlOx/ZnZSM-5(40) catalyst exhibits the highest selectivity to С5+ hydrocarbons, which is associated with the presence of strong Brønsted acid sites on its surface.</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1134/S0965544123090025</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">characterization: temperature-programmed ammonia desorption</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication54</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_5406">
@@ -78375,7 +78920,12 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 
 <owl:NamedIndividual rdf:about="#DC_0515">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28694"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10004"/>
   <merg:catalytic_component_of rdf:resource="#DC_1005"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10301"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10601"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10605"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10606"/>
   <merg:catalytic_component_of rdf:resource="#DC_5804"/>
   <merg:catalytic_component_of rdf:resource="#DC_5805"/>
   <merg:catalytic_component_of rdf:resource="#DC_5806"/>
@@ -78384,7 +78934,14 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:catalytic_component_of rdf:resource="#DC_9401"/>
   <merg:catalytic_component_of rdf:resource="#DC_9402"/>
   <merg:catalytic_component_of rdf:resource="#DC_9704"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9802"/>
   <merg:mentioned_in rdf:resource="#publication10"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <merg:mentioned_in rdf:resource="#publication103"/>
+  <merg:mentioned_in rdf:resource="#publication104"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
   <merg:mentioned_in rdf:resource="#publication41"/>
   <merg:mentioned_in rdf:resource="#publication44"/>
   <merg:mentioned_in rdf:resource="#publication46"/>
@@ -78404,12 +78961,14 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication95"/>
   <merg:mentioned_in rdf:resource="#publication96"/>
   <merg:mentioned_in rdf:resource="#publication97"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
   <merg:support_component_of rdf:resource="#DC_7006"/>
   <merg:supported_on rdf:resource="#DC_0202"/>
+  <merg:supported_on rdf:resource="#DC_4207"/>
   <obo:RO_0000087 rdf:resource="#DC_0205"/>
   <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <merg:catalytic_component_of rdf:resource="#DC_9802"/>
-  <merg:mentioned_in rdf:resource="#publication98"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Copper</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copper</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
@@ -78428,12 +78987,58 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">silicon atom</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#DC_10004">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <merg:mentioned_in rdf:resource="#publication103"/>
+  <merg:mentioned_in rdf:resource="#publication104"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu/ZrO2 catalyst</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu supported on ZrO2 catalyst</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#DC_1005">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28694"/>
   <merg:mentioned_in rdf:resource="#publication10"/>
   <obo:RO_0000087 rdf:resource="#DC_0208"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ruthenium, palladium and copper</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10301">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication103"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu/ZrO2-18h catalyst</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu supported on ZrO2-18h catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10601">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
+  <obo:RO_0000087 rdf:resource="#DC_10614"/>
+  <obo:RO_0000087 rdf:resource="#DC_10615"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Copper-doped ZnO-ZrO2 solid solution catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10605">
+  <rdf:type rdf:resource="#DC_10600"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
+  <obo:RO_0000087 rdf:resource="#DC_10615"/>
+  <obo:RO_0000087 rdf:resource="#DC_4512"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnO-ZrO2 solid solution catalyst with 3% Cu</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10606">
+  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28694"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
+  <obo:RO_0000087 rdf:resource="#DC_4512"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">catalyst with 3% Cu</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_5804">
@@ -78480,6 +79085,15 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu:Co = 1:4, 5 mol% ZrO2</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#DC_9802">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu/MOF-5 catalyst</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu supported on MOF-5 catalyst</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#DC_7006">
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
   <merg:mentioned_in rdf:resource="#publication70"/>
@@ -78488,13 +79102,52 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-based monatomic alloy catalyst</rdfs:label>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#DC_9802">
-  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+<owl:NamedIndividual rdf:about="#DC_4207">
+  <rdf:type rdf:resource="#DC_4206"/>
+  <merg:catalytic_component_of rdf:resource="#DC_7201"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <merg:mentioned_in rdf:resource="#publication103"/>
+  <merg:mentioned_in rdf:resource="#publication104"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <merg:mentioned_in rdf:resource="#publication42"/>
+  <merg:mentioned_in rdf:resource="#publication46"/>
+  <merg:mentioned_in rdf:resource="#publication62"/>
+  <merg:mentioned_in rdf:resource="#publication72"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <merg:support_component_of rdf:resource="#DC_10001"/>
+  <merg:support_component_of rdf:resource="#DC_10003"/>
+  <merg:support_component_of rdf:resource="#DC_10004"/>
+  <merg:support_component_of rdf:resource="#DC_10102"/>
+  <merg:support_component_of rdf:resource="#DC_10106"/>
+  <merg:support_component_of rdf:resource="#DC_10505"/>
+  <merg:support_component_of rdf:resource="#DC_4605"/>
+  <merg:support_component_of rdf:resource="#DC_9703"/>
+  <merg:support_component_of rdf:resource="#DC_9704"/>
+  <merg:support_component_of rdf:resource="#DC_9705"/>
+  <merg:support_component_of rdf:resource="#DC_9707"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0809"/>
+  <obo:BFO_0000051 rdf:resource="#DC_3810"/>
+  <obo:RO_0000087 rdf:resource="#DC_0205"/>
   <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <merg:mentioned_in rdf:resource="#publication98"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu supported on MOF-5 catalyst</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K-ZrO2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-10</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-5</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu/MOF-5 catalyst</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dioxozirconium</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10614">
+  <rdf:type rdf:resource="#DC_10602"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doped catalyst role</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10615">
+  <rdf:type rdf:resource="#DC_10604"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid solution catalyst role</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_9209">
@@ -78507,6 +79160,119 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdf:type rdf:resource="#DC_7008"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monatomic alloy catalyst role</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_7201">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication72"/>
+  <obo:RO_0000087 rdf:resource="#DC_7203"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-free catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10001">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuIn/ZrO2 catalyst</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuIn supported on ZrO2 catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10003">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuIn0.05/ZrO2 catalyst</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuIn0.05 supported on ZrO2 catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10102">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-Mn-Ni/ZrO2 catalyst</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-MnNi supported on ZrO2 catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10106">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-Mn/ZrO2 catalyst</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuMn supported on ZrO2 catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10505">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-Mn-Zn/ZrO2 catalyst</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-MnZn supported on ZrO2 catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_4605">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication46"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K-ZrO2 interface</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9703">
+  <rdf:type rdf:resource="#DC_4206"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-10 mol% ZrO2</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9705">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-free counterpart</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_9707">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co1Fe4@ZrO2-10</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co1Fe4 supported on ZrO2-10</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_3810">
+  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33342"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <merg:mentioned_in rdf:resource="#publication103"/>
+  <merg:mentioned_in rdf:resource="#publication104"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
+  <merg:mentioned_in rdf:resource="#publication38"/>
+  <merg:mentioned_in rdf:resource="#publication42"/>
+  <merg:mentioned_in rdf:resource="#publication46"/>
+  <merg:mentioned_in rdf:resource="#publication62"/>
+  <merg:mentioned_in rdf:resource="#publication72"/>
+  <merg:mentioned_in rdf:resource="#publication81"/>
+  <merg:mentioned_in rdf:resource="#publication97"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zr</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zirconium atom</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_7203">
+  <rdf:type rdf:resource="#DC_7202"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zro2-free catalyst role</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_0602">
@@ -78667,6 +79433,58 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoCa supported on Al2O3</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#DC_10005">
+  <rdf:type rdf:resource="#DC_10000"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10001"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <merg:supported_on rdf:resource="#DC_4207"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_8806"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuIn</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copper;indium</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_8806">
+  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30430"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10401"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <merg:mentioned_in rdf:resource="#publication104"/>
+  <merg:mentioned_in rdf:resource="#publication88"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indium</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indium atom</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10401">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication104"/>
+  <obo:RO_0000087 rdf:resource="#DC_1708"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In-promoted catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10006">
+  <rdf:type rdf:resource="#DC_10002"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10003"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_8806"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuIn0.05</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10007">
+  <rdf:type rdf:resource="#05"/>
+  <merg:supported_on rdf:resource="#DC_4207"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">05</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#DC_1001">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33363"/>
   <merg:catalytic_component_of rdf:resource="#DC_1005"/>
@@ -78699,93 +79517,6 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">potassium atom</rdfs:label>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#DC_4207">
-  <rdf:type rdf:resource="#DC_4206"/>
-  <merg:catalytic_component_of rdf:resource="#DC_7201"/>
-  <merg:mentioned_in rdf:resource="#publication42"/>
-  <merg:mentioned_in rdf:resource="#publication46"/>
-  <merg:mentioned_in rdf:resource="#publication62"/>
-  <merg:mentioned_in rdf:resource="#publication72"/>
-  <merg:mentioned_in rdf:resource="#publication97"/>
-  <merg:support_component_of rdf:resource="#DC_4605"/>
-  <merg:support_component_of rdf:resource="#DC_9703"/>
-  <merg:support_component_of rdf:resource="#DC_9704"/>
-  <merg:support_component_of rdf:resource="#DC_9705"/>
-  <merg:support_component_of rdf:resource="#DC_9707"/>
-  <obo:BFO_0000051 rdf:resource="#DC_0809"/>
-  <obo:BFO_0000051 rdf:resource="#DC_3810"/>
-  <obo:RO_0000087 rdf:resource="#DC_0205"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K-ZrO2</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-10</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-5</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dioxozirconium</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_7201">
-  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
-  <merg:mentioned_in rdf:resource="#publication72"/>
-  <obo:RO_0000087 rdf:resource="#DC_7203"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-free catalyst</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_4605">
-  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
-  <merg:mentioned_in rdf:resource="#publication46"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K-ZrO2 interface</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_9703">
-  <rdf:type rdf:resource="#DC_4206"/>
-  <merg:mentioned_in rdf:resource="#publication97"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">5-10 mol% ZrO2</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_9705">
-  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
-  <merg:mentioned_in rdf:resource="#publication97"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-free counterpart</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_9707">
-  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
-  <merg:mentioned_in rdf:resource="#publication97"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co1Fe4@ZrO2-10</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Co1Fe4 supported on ZrO2-10</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_3810">
-  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33342"/>
-  <merg:mentioned_in rdf:resource="#publication38"/>
-  <merg:mentioned_in rdf:resource="#publication42"/>
-  <merg:mentioned_in rdf:resource="#publication46"/>
-  <merg:mentioned_in rdf:resource="#publication62"/>
-  <merg:mentioned_in rdf:resource="#publication72"/>
-  <merg:mentioned_in rdf:resource="#publication81"/>
-  <merg:mentioned_in rdf:resource="#publication97"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zr</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zirconium atom</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_7203">
-  <rdf:type rdf:resource="#DC_7202"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zro2-free catalyst role</rdfs:label>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#DC_1003">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24632"/>
   <merg:mentioned_in rdf:resource="#publication10"/>
@@ -78808,6 +79539,230 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <obo:RO_0000087 rdf:resource="#DC_0206"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C5+ hydrocarbon</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10100">
+  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMZ</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cefmetazole sodium</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10104">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMNZ-0.01 catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10107">
+  <rdf:type rdf:resource="#DC_10101"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10102"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <merg:supported_on rdf:resource="#DC_4207"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0203"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_2200"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-MnNi</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manganese;nickel</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_2200">
+  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18291"/>
+  <merg:catalytic_component_of rdf:resource="#DC_2201"/>
+  <merg:catalytic_component_of rdf:resource="#DC_2202"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <merg:mentioned_in rdf:resource="#publication22"/>
+  <merg:mentioned_in rdf:resource="#publication79"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mn</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mn-10</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manganese atom</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10108">
+  <rdf:type rdf:resource="#DC_10103"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10104"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMNZ-0.01</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10109">
+  <rdf:type rdf:resource="#DC_10105"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10106"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <merg:supported_on rdf:resource="#DC_4207"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_2200"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuMn</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copper;manganese</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10302">
+  <rdf:type rdf:resource="#DC_10300"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10301"/>
+  <merg:mentioned_in rdf:resource="#publication103"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0809"/>
+  <obo:BFO_0000051 rdf:resource="#DC_3810"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZrO2-18h</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10402">
+  <rdf:type rdf:resource="#DC_10400"/>
+  <merg:mentioned_in rdf:resource="#publication104"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_3810"/>
+  <obo:BFO_0000051 rdf:resource="#DC_8806"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuZrIn5</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10503">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu1.5Mn1.5O4 spinel</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10506">
+  <rdf:type rdf:resource="#DC_10500"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_1310"/>
+  <obo:BFO_0000051 rdf:resource="#DC_2200"/>
+  <obo:BFO_0000051 rdf:resource="#DC_3810"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu3MnZn0.5Zr0.5</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_1310">
+  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27363"/>
+  <merg:catalytic_component_of rdf:resource="#DC_4506"/>
+  <merg:catalytic_component_of rdf:resource="#DC_5608"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
+  <merg:mentioned_in rdf:resource="#publication13"/>
+  <merg:mentioned_in rdf:resource="#publication45"/>
+  <merg:mentioned_in rdf:resource="#publication54"/>
+  <merg:mentioned_in rdf:resource="#publication56"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zn</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnZr-4</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc atom</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_4506">
+  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27363"/>
+  <merg:mentioned_in rdf:resource="#publication45"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc blende CoO</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_5608">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication56"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnZr-4/HZSM-5</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnZr-4 supported on HZSM-5</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10507">
+  <rdf:type rdf:resource="#DC_10502"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10503"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0809"/>
+  <obo:BFO_0000051 rdf:resource="#DC_2200"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu1.5Mn1.5O4</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10508">
+  <rdf:type rdf:resource="#DC_10504"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10505"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <merg:supported_on rdf:resource="#DC_4207"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_1310"/>
+  <obo:BFO_0000051 rdf:resource="#DC_2200"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu-MnZn</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manganese;zinc</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10608">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
+  <obo:RO_0000087 rdf:resource="#DC_10617"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3% CuZnO-ZrO2 catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10617">
+  <rdf:type rdf:resource="#DC_10609"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">3 % catalyst role</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10611">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solid solution catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10613">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CZA catalyst</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10616">
+  <rdf:type rdf:resource="#DC_10600"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10601"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10605"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0809"/>
+  <obo:BFO_0000051 rdf:resource="#DC_1310"/>
+  <obo:BFO_0000051 rdf:resource="#DC_3810"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnO-ZrO2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc;dioxido(oxo)zirconium</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10618">
+  <rdf:type rdf:resource="#DC_10607"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10608"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0809"/>
+  <obo:BFO_0000051 rdf:resource="#DC_1310"/>
+  <obo:BFO_0000051 rdf:resource="#DC_3810"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuZnO-ZrO2</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">copper;zinc;oxygen(2-);zirconium(4+)</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_1101">
@@ -78986,38 +79941,6 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <obo:BFO_0000051 rdf:resource="#DC_1310"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zn-NiSil</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_1310">
-  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27363"/>
-  <merg:catalytic_component_of rdf:resource="#DC_4506"/>
-  <merg:catalytic_component_of rdf:resource="#DC_5608"/>
-  <merg:mentioned_in rdf:resource="#publication13"/>
-  <merg:mentioned_in rdf:resource="#publication45"/>
-  <merg:mentioned_in rdf:resource="#publication54"/>
-  <merg:mentioned_in rdf:resource="#publication56"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zn</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnZr-4</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc atom</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_4506">
-  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27363"/>
-  <merg:mentioned_in rdf:resource="#publication45"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">zinc blende CoO</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_5608">
-  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
-  <merg:mentioned_in rdf:resource="#publication56"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnZr-4/HZSM-5</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ZnZr-4 supported on HZSM-5</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_1400">
@@ -79285,19 +80208,6 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication21"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">γAl2O3</rdfs:label>
-</owl:NamedIndividual>
-
-<owl:NamedIndividual rdf:about="#DC_2200">
-  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_18291"/>
-  <merg:catalytic_component_of rdf:resource="#DC_2201"/>
-  <merg:catalytic_component_of rdf:resource="#DC_2202"/>
-  <merg:mentioned_in rdf:resource="#publication22"/>
-  <merg:mentioned_in rdf:resource="#publication79"/>
-  <obo:RO_0000087 rdf:resource="#DC_0208"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mn</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Mn-10</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">manganese atom</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_2300">
@@ -79600,6 +80510,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication38"/>
   <merg:mentioned_in rdf:resource="#publication54"/>
   <merg:mentioned_in rdf:resource="#publication92"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Al</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">aluminium atom</rdfs:label>
@@ -80353,6 +81264,12 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 
 <owl:NamedIndividual rdf:about="#DC_4800">
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_17790"/>
+  <merg:mentioned_in rdf:resource="#publication100"/>
+  <merg:mentioned_in rdf:resource="#publication101"/>
+  <merg:mentioned_in rdf:resource="#publication103"/>
+  <merg:mentioned_in rdf:resource="#publication104"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
+  <merg:mentioned_in rdf:resource="#publication106"/>
   <merg:mentioned_in rdf:resource="#publication48"/>
   <merg:mentioned_in rdf:resource="#publication58"/>
   <merg:mentioned_in rdf:resource="#publication59"/>
@@ -80366,9 +81283,9 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:mentioned_in rdf:resource="#publication79"/>
   <merg:mentioned_in rdf:resource="#publication82"/>
   <merg:mentioned_in rdf:resource="#publication87"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
   <obo:RO_0000087 rdf:resource="#DC_0206"/>
   <obo:RO_0000087 rdf:resource="#DC_0207"/>
-  <merg:mentioned_in rdf:resource="#publication98"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CH3OH</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methanol</rdfs:label>
@@ -80414,6 +81331,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 <owl:NamedIndividual rdf:about="#DC_4803">
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
   <merg:mentioned_in rdf:resource="#publication48"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dimethyl ether</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DME</rdfs:label>
@@ -80709,8 +81627,48 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <merg:catalytic_component_of rdf:resource="#DC_5608"/>
   <merg:catalytic_component_of rdf:resource="#DC_5609"/>
   <merg:mentioned_in rdf:resource="#publication56"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10704"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10706"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10707"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10708"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HZSM-5</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10704">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <obo:RO_0000087 rdf:resource="#DC_10710"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CZA supported on HZSM-5 (H form of Zeolite Socony Mobil-5) bifunctional catalyst</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CZA/HZSM-5 (H form of Zeolite Socony Mobil-5) bifunctional catalyst</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10706">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bare CZA supported on HZSM-5 catalyst</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bare CZA/HZSM-5 catalyst</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10707">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HZSM-5 catalyst</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10708">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <obo:RO_0000087 rdf:resource="#DC_10710"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CZA supported on HZSM-5 bifunctional catalyst</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CZA/HZSM-5 bifunctional catalyst</rdfs:comment>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#DC_5701">
@@ -80881,6 +81839,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 
 <owl:NamedIndividual rdf:about="#DC_5902">
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication105"/>
   <merg:mentioned_in rdf:resource="#publication59"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">*HCOO</rdfs:label>
@@ -81205,6 +82164,7 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28887"/>
   <merg:mentioned_in rdf:resource="#publication69"/>
   <obo:RO_0000087 rdf:resource="#DC_0206"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dimethyl ether</rdfs:label>
 </owl:NamedIndividual>
@@ -81699,14 +82659,6 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(2R)-3-hydroxy-2-[(1R)-2-oxo-1-(6-oxo-1H-purin-9-yl)ethoxy]propanal</rdfs:label>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#DC_8806">
-  <rdf:type rdf:resource="http://purl.obolibrary.org/obo/CHEBI_30430"/>
-  <merg:mentioned_in rdf:resource="#publication88"/>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">indium atom</rdfs:label>
-</owl:NamedIndividual>
-
 <owl:NamedIndividual rdf:about="#DC_9201">
   <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
   <merg:mentioned_in rdf:resource="#publication92"/>
@@ -81856,6 +82808,14 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cu1Co4</rdfs:label>
 </owl:NamedIndividual>
 
+<owl:NamedIndividual rdf:about="#DC_9804">
+  <rdf:type rdf:resource="#DC_9801"/>
+  <merg:catalytic_component_of rdf:resource="#DC_9802"/>
+  <merg:mentioned_in rdf:resource="#publication98"/>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOF-5</rdfs:label>
+</owl:NamedIndividual>
+
 <owl:NamedIndividual rdf:about="#publication1">
   <rdf:type rdf:resource="#publication"/>
   <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/j.apcata.2024.119636</merg:has_doi>
@@ -81863,6 +82823,15 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:Hydrogenation of CO to higher alcohols such as ethanol is an attractive pathway for industrial production while avoiding competition with food crops. However, thermocatalytic ethanol production from syngas is currently hindered by the lack of selective catalysts. The structural integrity of ternary-alloyed CoCu2Ga nanoparticles supported on silica was studied during thermo-catalytic CO hydrogenation. Catalysts of four different CoCu2Ga weight-loadings were tested catalytically under differential conversion, showing their different intrinsic selectivity during CO hydrogenation towards ethanol, methanol, and hydrocarbons. CoCu2Ga catalysts with 3.5 wt% and 17.8 wt% proved most and least selective towards ethanol formation, respectively. These two were studied in depth using STEM-EDX of fresh and spent samples showing different size distributions of the nanoparticles for all samples, and a change in the Co/Cu distribution of the nanoparticles from fresh to spent samples. In situ characterization using XRD, XANES, and EXAFS during CO hydrogenation supported the findings of the STEM-EDX and elucidated that the fresh more homogenous catalyst consisting of ternary CoCu2Ga nanoparticles de-alloyed into Cu-rich and CoGa-rich nanoparticles. This de-alloying was possibly driven by two factors: the metastable phase of CoCu2Ga decreasing its free energy by separating Cu and Co; and the strong interaction between Co and CO further driving a segregation. From a theoretical standpoint, Cu-Co intermetallics present the most selective catalyst to form ethanol over methane and methanol. The experimental findings presented here support the theory, although further efforts are needed to improve structural stability during the catalytic reaction.</rdfs:comment>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1016/j.apcata.2024.119636</rdfs:comment>
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication1</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication102">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.1016/S1872-5813(23)60391-3</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Performance of Cu-Mn-Zn/ZrO2 catalysts for methanol synthesis from CO2 hydrogenation: The effect of Zn content Zn 含量对于 Cu-Mn-Zn/ZrO2 催化剂 CO2加氢合成甲醇性能的影响研究</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:A series of Cu-Mn-Zn/ZrO2 catalysts with different Zn contents were prepared by sol-gel method and characterized by XRD, BET, TPR, N20-adsorption, XPS, TPD and in-situ DRIFTS. It was found that by increasing a certain amount of Zn, the catalytic activity for CO2 hydrogenation increased. Among all samples, C\x,MvZn[tfLroi (CMZZ-0.5) possessed the best CO2 conversion (6.5%) and methanol selectivity (73.7%) at 250 °C and 5 MPa. Characterization results showed that Zn entered the CuuMnLsO,! spinel structure, forming ZnO, and thus more surface OH groups. This increased the content of Cu and Cu"+, which improved the activation of H2 and CO2. The pathway of CO2 to methanol was also clarified through in-situ DRIFTS.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.1016/S1872-5813(23)60391-3</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication102</rdfs:label>
 </owl:NamedIndividual>
 
 <owl:NamedIndividual rdf:about="#publication15">
@@ -82045,21 +83014,64 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication91</rdfs:label>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#DC_9804">
-  <rdf:type rdf:resource="#DC_9801"/>
-  <merg:catalytic_component_of rdf:resource="#DC_9802"/>
-  <merg:mentioned_in rdf:resource="#publication98"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOF-5</rdfs:label>
+<owl:NamedIndividual rdf:about="#publication99">
+  <rdf:type rdf:resource="#publication"/>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3969/j.issn.1001-9731.2024.09.011</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Study on the performance of CO2 hydrogenation to methanol on La-Cu/ZnO/ZrO2 catalysts La-Cu/ZnO/ZrO2 催化剂上 CO2 加氢合成甲醇性能研究</merg:has_title>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:Cu/ZnO/ZrO2 catalysts doped with different contents of La were prepared by the co-precipitation method and experimentally investigated with respect to the synthesis of methanol by CO2 hydrogenation. The advantages of La for Cu/ZnO/ZrO2 catalysts were investigated by XRD, N2 physisorption, N2O chemisorption, XPS, H2-TPR, and CO2-TPD, and the effects of different contents of La were investigated. The effects of the incorporation of different dopant amounts (0%-10%) of La on the average particle size, aggregation state, and the interaction of the elements of Cu were discussed in detail. The experiments showed that the specific surface area and dispersion of the Cu/ZnO/ZrO2 catalysts were significantly increased by the doped La, and the number of basic sites was significantly increased compared with that of the unmodified catalysts with an obvious advantage of methanol selectivity. The doping of La promoted the Cu-ZnO interactions and enhanced the catalytic performance. The appropriate La content is favorable to the catalytic performance of the Cu/ZnO/ZrO2 catalysts, and the highest spatial and temporal yield of CH3OH reached 0.35(g(MeOH)/g(cat)·h) at 240 ℃ and 3 MPa with 5% La content.</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.3969/j.issn.1001-9731.2024.09.011</rdfs:comment>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication99</rdfs:label>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10700">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">product DME</rdfs:label>
   <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
 </owl:NamedIndividual>
 
-<owl:NamedIndividual rdf:about="#publication99">
+<owl:NamedIndividual rdf:about="#DC_10702">
+  <rdf:type rdf:resource="http://purl.allotrope.org/ontologies/material#AFM_0001097"/>
+  <obo:RO_0000087 rdf:resource="#DC_0208"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuO-ZnO-Al2O3 (CZA) catalysts</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10710">
+  <rdf:type rdf:resource="#DC_10705"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bifunctional catalyst role</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10709">
+  <rdf:type rdf:resource="#DC_10701"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10702"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0515"/>
+  <obo:BFO_0000051 rdf:resource="#DC_0809"/>
+  <obo:BFO_0000051 rdf:resource="#DC_1310"/>
+  <obo:BFO_0000051 rdf:resource="#DC_3413"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dialuminum;zinc;oxocopper;oxygen(2-)</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CuO-ZnO-Al2O3</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#DC_10711">
+  <rdf:type rdf:resource="#DC_10703"/>
+  <merg:catalytic_component_of rdf:resource="#DC_10704"/>
+  <merg:mentioned_in rdf:resource="#publication107"/>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zeolite Socony Mobil-5</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created automatically</rdfs:comment>
+</owl:NamedIndividual>
+
+<owl:NamedIndividual rdf:about="#publication108">
   <rdf:type rdf:resource="#publication"/>
-  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication99</rdfs:label>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.3969/j.issn.1001-9731.2024.09.011</rdfs:comment>
-  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:Cu/ZnO/ZrO2 catalysts doped with different contents of La were prepared by the co-precipitation method and experimentally investigated with respect to the synthesis of methanol by CO2 hydrogenation. The advantages of La for Cu/ZnO/ZrO2 catalysts were investigated by XRD, N2 physisorption, N2O chemisorption, XPS, H2-TPR, and CO2-TPD, and the effects of different contents of La were investigated. The effects of the incorporation of different dopant amounts (0%-10%) of La on the average particle size, aggregation state, and the interaction of the elements of Cu were discussed in detail. The experiments showed that the specific surface area and dispersion of the Cu/ZnO/ZrO2 catalysts were significantly increased by the doped La, and the number of basic sites was significantly increased compared with that of the unmodified catalysts with an obvious advantage of methanol selectivity. The doping of La promoted the Cu-ZnO interactions and enhanced the catalytic performance. The appropriate La content is favorable to the catalytic performance of the Cu/ZnO/ZrO2 catalysts, and the highest spatial and temporal yield of CH3OH reached 0.35(g(MeOH)/g(cat)·h) at 240 ℃ and 3 MPa with 5% La content.</rdfs:comment>
-  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3969/j.issn.1001-9731.2024.09.011</merg:has_doi>
-  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Study on the performance of CO2 hydrogenation to methanol on La-Cu/ZnO/ZrO2 catalysts La-Cu/ZnO/ZrO2 催化剂上 CO2 加氢合成甲醇性能研究</merg:has_title>
+  <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication108</rdfs:label>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOI: 10.3303/CET2399077</rdfs:comment>
+  <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Abstract:As a consequence of the increasing greenhouse gas emissions, CO2 valorization processes are gaining importance in the last decades. Amongst the most attractive processes for CO2 utilization, its conversion into hydrocarbons stands out, in particular by means of catalytic processes with syngas co-feeding. With this purpose, an In2O3-ZrO2 (InZr) catalyst alternative to the traditional Cu-ZnO-ZrO2 (CuZnZr) for methanol synthesis (as the first stage of the direct synthesis of hydrocarbons from CO2/CO hydrogenation) was assessed. Afterwards, both catalysts were tested in tandem with HZM-5 zeolite for the production of fuel-range hydrocarbons. The catalysts were characterized by several techniques and ascertained by means of reaction runs at different operating conditions, aiming to assess the effect of temperature on the performance. Even if CuZnZr resulted in higher methanol production, InZr catalyst proved to be the most adequate catalyst for the integrated process, since CuZnZr sintered at temperatures above 300°C (needed for the conversion of methanol to hydrocarbons). With InZr/HZSM-5 catalyst, C5+ hydrocarbon yield near 20% was obtained at 420°C and 50 bar, with a COx conversion of 23%, by feeding a CO2/CO equimolar mixture, and with a H2/COx ratio of 3.</rdfs:comment>
+  <merg:has_doi rdf:datatype="http://www.w3.org/2001/XMLSchema#string">10.3303/CET2399077</merg:has_doi>
+  <merg:has_title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In2O3-ZrO2 as Alternative to Cu-based Catalysts for Methanol Production Step in the CO2 to Hydrocarbon Process</merg:has_title>
 </owl:NamedIndividual>
 
 <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000134">
@@ -82073,19 +83085,19 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 </rdf:Description>
 
 <rdf:Description>
-  <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
-</rdf:Description>
-
-<rdf:Description>
-  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-</rdf:Description>
-
-<rdf:Description>
   <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
 </rdf:Description>
 
 <rdf:Description>
   <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description>
+  <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</xsd:minInclusive>
+</rdf:Description>
+
+<rdf:Description>
+  <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
 </rdf:Description>
 
 <owl:Axiom>
@@ -82512,6 +83524,13 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AGR:IND605263906</owl:annotatedTarget>
   <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_88188"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">allergenic drug</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
 </owl:Axiom>
 
 <owl:Axiom>
@@ -88333,6 +89352,34 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 <owl:Axiom>
   <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59897"/>
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telomerase inhibitors</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59897"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telomerase inhibitor</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59897"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revertase inhibitors</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59897"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revertase inhibitor</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59897"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reverse transcriptase inhibitors</owl:annotatedTarget>
   <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
 </owl:Axiom>
@@ -88488,34 +89535,6 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59897"/>
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DNA nucleotidyltransferase (RNA-directed) inhibitor</owl:annotatedTarget>
-  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
-</owl:Axiom>
-
-<owl:Axiom>
-  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59897"/>
-  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telomerase inhibitors</owl:annotatedTarget>
-  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
-</owl:Axiom>
-
-<owl:Axiom>
-  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59897"/>
-  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">telomerase inhibitor</owl:annotatedTarget>
-  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
-</owl:Axiom>
-
-<owl:Axiom>
-  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59897"/>
-  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revertase inhibitors</owl:annotatedTarget>
-  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
-</owl:Axiom>
-
-<owl:Axiom>
-  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_59897"/>
-  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">revertase inhibitor</owl:annotatedTarget>
   <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
 </owl:Axiom>
 
@@ -89188,6 +90207,56 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inorganic hydroxides</owl:annotatedTarget>
   <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52440"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosporincarboxylate</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52440"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosporin carboxylic acid anions</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52440"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosporin carboxylates</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52440"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosporin carboxylate</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52439"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(6R,7S)-7-({[(cyanomethyl)sulfanyl]acetyl}amino)-7-methoxy-3-{[(1-methyl-1H-tetrazol-5-yl)sulfanyl]methyl}-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylate</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52439"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+  <oboI:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7beta-{[(cyanomethyl)sulfanyl]acetamido}-7alpha-methoxy-3-{[(1-methyl-1H-tetrazol-5-yl)sulfanyl]methyl}ceph-3-em-4-carboxylate</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52439"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:5406422</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein</oboI:source>
 </owl:Axiom>
 
 <owl:Axiom>
@@ -93408,6 +94477,13 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 </owl:Axiom>
 
 <owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38311"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephems</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
   <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38295"/>
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">azabicycloalkanes</owl:annotatedTarget>
@@ -93440,6 +94516,20 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38166"/>
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heteropolycyclic compounds</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38106"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organosulfur heterocyclic compounds</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38106"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic organosulfur compounds</owl:annotatedTarget>
   <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
 </owl:Axiom>
 
@@ -95078,6 +96168,13 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 </owl:Axiom>
 
 <owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36047"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antibacterial drugs</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
   <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36044"/>
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antiviral drugs</owl:annotatedTarget>
@@ -95717,6 +96814,27 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARI</owl:annotatedTarget>
   <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35627"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-lactams</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35627"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a beta-lactam</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProt</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35627"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-Lactam</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG_COMPOUND</oboI:hasDbXref>
 </owl:Axiom>
 
 <owl:Axiom>
@@ -96822,6 +97940,221 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen hydrides</owl:annotatedTarget>
   <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cefmetazone</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Zefazone</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChemIDplus</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SKF 83088 sodium</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChemIDplus</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cefmetazon</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChemIDplus</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CS 1170 sodium</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChemIDplus</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMZ sodium</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChemIDplus</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMZ</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG_DRUG</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+  <oboI:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sodium 6beta-{[(cyanomethyl)sulfanyl]acetamido}-6alpha-methoxy-3-{[(1-methyl-1H-tetrazol-5-yl)sulfanyl]methyl}ceph-3-em-4-carboxylate</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cefmetazole sodium</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG_COMPOUND</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys:5403925</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reaxys</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:6176550</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:17939016</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:56796-39-5</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:56796-39-5</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChemIDplus</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3490"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:5403925</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <oboI:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#INN"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cefmetazolum</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <oboI:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#INN"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cefmetazolo</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugBank</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <oboI:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#INN"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cefmetazole</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG_DRUG</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(6R,7S)-7-({[(cyanomethyl)sulfanyl]acetyl}amino)-7-methoxy-3-{[(1-methyl-1H-tetrazol-5-yl)sulfanyl]methyl}-8-oxo-5-thia-1-azabicyclo[4.2.0]oct-2-ene-2-carboxylic acid</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+  <oboI:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">7beta-{[(cyanomethyl)sulfanyl]acetamido}-7alpha-methoxy-3-{[(1-methyl-1H-tetrazol-5-yl)sulfanyl]methyl}ceph-3-em-4-carboxylic acid</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:8452349</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:29017833</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:2416589</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23705013</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:23140947</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10109799</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Drug_Central:539</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DrugCentral</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:56796-20-4</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:56796-20-4</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChemIDplus</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_3489"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein:5406306</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Beilstein</oboI:source>
 </owl:Axiom>
 
 <owl:Axiom>
@@ -110406,6 +111739,34 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 </owl:Axiom>
 
 <owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27933"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-lactam antibiotics</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27933"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">beta-Lactam antibiotics</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG_COMPOUND</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27933"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:22594007</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27933"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:19254642</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
   <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_27638"/>
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cobaltum</owl:annotatedTarget>
@@ -112747,6 +114108,13 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 </owl:Axiom>
 
 <owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25558"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen heterocyclic antibiotics</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
   <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25555"/>
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogeno</owl:annotatedTarget>
@@ -113055,6 +114423,42 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAS:7439-95-4</owl:annotatedTarget>
   <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChemIDplus</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24995"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactams</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24995"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laktame</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24995"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Laktam</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24995"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+  <oboI:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactams</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24995"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lactam</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC</oboI:hasDbXref>
 </owl:Axiom>
 
 <owl:Axiom>
@@ -114186,6 +115590,20 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
 </owl:Axiom>
 
 <owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23443"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic amides</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23443"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic amide</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
   <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23424"/>
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
   <oboI:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
@@ -114249,6 +115667,83 @@ Copyright © 1995-2015 DCMI. All Rights Reserved. DCMI liability, trademark/serv
   <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
   <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cofactor</owl:annotatedTarget>
   <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23066"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosporins</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23066"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosphorins</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23066"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cephalosphorin</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23066"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cephalosporin</owl:annotatedTarget>
+  <oboI:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG_COMPOUND</oboI:hasDbXref>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23066"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:8426246</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23066"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:6762896</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23066"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:3320614</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23066"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:24269048</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23066"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12833570</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23066"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:11936371</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
+</owl:Axiom>
+
+<owl:Axiom>
+  <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23066"/>
+  <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+  <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:10069359</owl:annotatedTarget>
+  <oboI:source rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Europe PMC</oboI:source>
 </owl:Axiom>
 
 <owl:Axiom>
