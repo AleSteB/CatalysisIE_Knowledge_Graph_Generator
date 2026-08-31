@@ -631,6 +631,7 @@ def ScopusSearchQueries(reac_all, sup_all, cat_all, cat_full_all,reactant_all, p
     return df_all,queries
 
 def reasoning_dois_onto(onto_name):
+    owlready2.reasoning.JAVA_MEMORY = 4000
     new_world = owlready2.World()
     onto = get_ontology("./ontologies/{}.owl".format(onto_name)).load()
     

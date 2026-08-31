@@ -1,0 +1,12 @@
+http://purl.obolibrary.org/obo/CHEBI_27594  # carbon atom
+http://purl.obolibrary.org/obo/CHEBI_25805  # oxygen atom
+http://purl.obolibrary.org/obo/CHEBI_29194  # oxygen atom
+http://purl.obolibrary.org/obo/CHEBI_30187  # aluminium oxide
+http://purl.obolibrary.org/obo/CHEBI_17790  # methanol
+http://purl.obolibrary.org/obo/CHEBI_29326  # hydroxidooxidocarbon(.)
+http://purl.obolibrary.org/obo/CHEBI_30751  # formic acid
+http://purl.obolibrary.org/obo/CHEBI_28694  # copper atom
+http://purl.obolibrary.org/obo/CHEBI_30052  # copper
+http://purl.obolibrary.org/obo/CHEBI_28984  # aluminium atom
+http://purl.obolibrary.org/obo/CHEBI_29305  # hydrogen atom
+http://purl.obolibrary.org/obo/CHEBI_49637  # hydrogen atom
